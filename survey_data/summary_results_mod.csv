@@ -1,0 +1,763 @@
+ÿþPy-ART Roadmap Survey
+
+"Q1. Have you ever used Py-ART before?"
+
+"Answer Options","Response Percent","Response Count"
+"Yes","68.6 %",24
+"No","31.4 %",11
+,"answered question",35
+,"skipped question",0
+
+
+
+"Q2. Would you consider yourself"
+
+"Answer Options","Response Percent","Response Count"
+"Mainly involved in using models, limited use of observations","18.2 %",2
+"Sitting between using models and observations","18.2 %",2
+"Mainly involved in using observations, rarely use or interact with numerical models","63.6 %",7
+,"answered question",11
+,"skipped question",24
+
+
+
+"Q3. First, Some information about you, what is your role in your organization?"
+
+"Answer Options","Response Percent","Response Count"
+"Undergraduate Student","0.0 %",0
+"Graduate student","0.0 %",0
+"Research assistant","0.0 %",0
+"Postdoctoral","0.0 %",0
+"Scientist/professional (eg scientist within a lab/non-teaching role, Government Scientist, FFRDC or federal contractor)","0.0 %",0
+"Tenure track or Tenured Proffessor","0.0 %",0
+"Retired","0.0 %",0
+"None of the above","0.0 %",0
+,"answered question",0
+,"skipped question",35
+
+
+
+"Q4. What type of organization do you belong to or study in?"
+
+"Answer Options","Response Percent","Response Count"
+"University","0.0 %",0
+"Government contractor, USA (eg National Lab, NCAR)","0.0 %",0
+"Government contractor, Non-USA","0.0 %",0
+"US Government Employee","0.0 %",0
+"Employ of a Government but not the US","0.0 %",0
+"Private Industry","0.0 %",0
+"Self employed or unemployed","0.0 %",0
+"none of the above","0.0 %",0
+,"answered question",0
+,"skipped question",35
+
+
+
+"Q5. Have you Heard of Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Yes","0.0 %",0
+"No","0.0 %",0
+,"answered question",0
+,"skipped question",35
+
+
+
+"Q6. Rank these in order of how likely they are to get you interested in using Py-ART"
+
+"Answer Options","1","2","3","4","5","6","7","8","9","10","11","12","13","No idea what this is","Rating Average","Response Count"
+"Ingest of WRF data into the Py-ART Grid Model",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Cell/Object Tracking",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Multi-Doppler Winds",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"More Bulk statistics of grid or radar contents (CFAD, echo top heights etc..)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Easier ""One step"" rainfall retrievals",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"More input formats",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"More output formats",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"More data quality code (eg clutter rejection, biological masks..)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Velocity Azimuth Display wind retrievals",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Quasi-Vertical Profile reconstruction from a list of radars",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Add the option of Cartopy map backend to the existing basemap in RadarMapDisplay",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"More high level retrievals from the literature (Eg DSD, Particle ID..)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Ability to handle Radar Spectra and perform retrievals on that",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+,,,,,,,,,,,,,,,"answered question",0
+,,,,,,,,,,,,,,,"skipped question",35
+
+
+
+"Q7. What features would encourage you to use Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Feature 1","0.0 %",0
+"Feature 2","0.0 %",0
+"Feature 3","0.0 %",0
+,"answered question",0
+,"skipped question",35
+
+
+
+"Q8. Does anyone in your team or institution use Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Yes","0.0 %",0
+"No","0.0 %",0
+"I do not know","0.0 %",0
+,"answered question",0
+,"skipped question",35
+
+
+
+"Q9. Comment on barriers to you using Py-ART"
+
+"Answer Options","Yes, This stops me using Py-ART","This is a deterrent from using Py-ART","Neutral","Not a barrier","Really not a barrier","N/A","Rating Average","Response Count"
+"Radars are just not my thing and Py-ART is all about radars",0,0,0,0,0,0,0.00,0
+"I have my own software I am very happy using",0,0,0,0,0,0,0.00,0
+"I am not a Python User",0,0,0,0,0,0,0.00,0
+"Most of my analysis is done by others in our group",0,0,0,0,0,0,0.00,0
+"Difficulty to install",0,0,0,0,0,0,0.00,0
+"Honestly, I had never heard of it until I saw this survey",0,0,0,0,0,0,0.00,0
+,,,,,,,"answered question",0
+,,,,,,,"skipped question",35
+
+
+
+"Q10. First, Some information about you, what is your role in your organization?"
+
+"Answer Options","Response Percent","Response Count"
+"Undergraduate Student","0.0 %",0
+"Graduate student","0.0 %",0
+"Research assistant","0.0 %",0
+"Postdoctoral","100.0 %",1
+"Scientist/professional (eg scientist within a lab/non-teaching role, Government Scientist, FFRDC or federal contractor)","0.0 %",0
+"Tenure track or Tenured Proffessor","0.0 %",0
+"Retired","0.0 %",0
+"None of the above","0.0 %",0
+,"answered question",1
+,"skipped question",34
+
+
+
+"Q11. What type of organization do you belong to or study in?"
+
+"Answer Options","Response Percent","Response Count"
+"University","100.0 %",1
+"Government contractor, USA (eg National Lab, NCAR)","0.0 %",0
+"Government contractor, Non-USA","0.0 %",0
+"US Government Employee","0.0 %",0
+"Employ of a Government but not the US","0.0 %",0
+"Private Industry","0.0 %",0
+"Self employed or unemployed","0.0 %",0
+"none of the above","0.0 %",0
+,"answered question",1
+,"skipped question",34
+
+
+
+"Q12. Have you Heard of Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Yes","100.0 %",1
+"No","0.0 %",0
+,"answered question",1
+,"skipped question",34
+
+
+
+"Q13. Rank these in order of how likely they are to get you interested in using Py-ART"
+
+"Answer Options","1","2","3","4","5","6","7","8","9","10","11","12","13","No idea what this is","Rating Average","Response Count"
+"Ingest of WRF data into the Py-ART Grid Model",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Cell/Object Tracking",1,0,0,0,0,0,0,0,0,0,0,0,0,0,1.00,1
+"Multi-Doppler Winds",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"More Bulk statistics of grid or radar contents (CFAD, echo top heights etc..)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Easier ""One step"" rainfall retrievals",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"More input formats",0,0,0,0,0,0,1,0,0,0,0,0,0,0,7.00,1
+"More output formats",0,0,0,0,0,1,0,0,0,0,0,0,0,0,6.00,1
+"More data quality code (eg clutter rejection, biological masks..)",0,1,0,0,0,0,0,0,0,0,0,0,0,0,2.00,1
+"Velocity Azimuth Display wind retrievals",0,0,1,0,0,0,0,0,0,0,0,0,0,0,3.00,1
+"Quasi-Vertical Profile reconstruction from a list of radars",0,0,0,1,0,0,0,0,0,0,0,0,0,0,4.00,1
+"Add the option of Cartopy map backend to the existing basemap in RadarMapDisplay",0,0,0,0,1,0,0,0,0,0,0,0,0,0,5.00,1
+"More high level retrievals from the literature (Eg DSD, Particle ID..)",0,0,0,0,0,0,0,0,0,0,0,0,0,1,0.00,1
+"Ability to handle Radar Spectra and perform retrievals on that",0,0,0,0,0,0,0,1,0,0,0,0,0,0,8.00,1
+,,,,,,,,,,,,,,,"answered question",1
+,,,,,,,,,,,,,,,"skipped question",34
+
+
+
+"Q14. What features would encourage you to use Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Feature 1","0.0 %",0
+"Feature 2","0.0 %",0
+"Feature 3","0.0 %",0
+,"answered question",0
+,"skipped question",35
+
+
+
+"Q15. Does anyone in your team or institution use Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Yes","0.0 %",0
+"No","100.0 %",1
+"I do not know","0.0 %",0
+,"answered question",1
+,"skipped question",34
+
+
+
+"Q16. Comment on barriers to you using Py-ART"
+
+"Answer Options","Yes, This stops me using Py-ART","This is a deterrent from using Py-ART","Neutral","Not a barrier","Really not a barrier","N/A","Rating Average","Response Count"
+"Radars are just not my thing and Py-ART is all about radars",0,0,0,1,0,0,4.00,1
+"I have my own software I am very happy using",0,0,0,0,1,0,5.00,1
+"I am not a Python User",0,0,0,0,1,0,5.00,1
+"Most of my analysis is done by others in our group",0,1,0,0,0,0,2.00,1
+"Difficulty to install",0,0,0,0,1,0,5.00,1
+"Honestly, I had never heard of it until I saw this survey",0,0,0,0,0,1,0.00,1
+,,,,,,,"answered question",1
+,,,,,,,"skipped question",34
+
+
+
+"Q17. First, Some information about you, what is your role in your organization?"
+
+"Answer Options","Response Percent","Response Count"
+"Undergraduate Student","0.0 %",0
+"Graduate student","0.0 %",0
+"Research assistant","33.3 %",1
+"Postdoctoral","0.0 %",0
+"Scientist/professional (eg scientist within a lab/non-teaching role, Government Scientist, FFRDC or federal contractor)","66.7 %",2
+"Tenure track or Tenured Proffessor","0.0 %",0
+"Retired","0.0 %",0
+"None of the above","0.0 %",0
+,"answered question",3
+,"skipped question",32
+
+
+
+"Q18. What type of organization do you belong to or study in?"
+
+"Answer Options","Response Percent","Response Count"
+"University","33.3 %",1
+"Government contractor, USA (eg National Lab, NCAR)","33.3 %",1
+"Government contractor, Non-USA","0.0 %",0
+"US Government Employee","0.0 %",0
+"Employ of a Government but not the US","33.3 %",1
+"Private Industry","0.0 %",0
+"Self employed or unemployed","0.0 %",0
+"none of the above","0.0 %",0
+,"answered question",3
+,"skipped question",32
+
+
+
+"Q19. Have you Heard of Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Yes","100.0 %",3
+"No","0.0 %",0
+,"answered question",3
+,"skipped question",32
+
+
+
+"Q20. Rank these in order of how likely they are to get you interested in using Py-ART"
+
+"Answer Options","1","2","3","4","5","6","7","8","9","10","11","12","13","No idea what this is","Rating Average","Response Count"
+"Ingest of WRF data into the Py-ART Grid Model",0,0,0,0,0,0,0,0,1,0,0,0,0,1,9.00,2
+"Cell/Object Tracking",0,1,0,0,0,0,0,1,0,0,0,0,0,0,5.00,2
+"Multi-Doppler Winds",1,0,0,0,1,0,0,0,0,0,0,0,0,0,3.00,2
+"More Bulk statistics of grid or radar contents (CFAD, echo top heights etc..)",0,0,1,1,0,0,0,0,0,0,1,0,0,0,6.00,3
+"Easier ""One step"" rainfall retrievals",1,0,0,0,0,0,0,1,0,0,0,0,0,0,4.50,2
+"More input formats",0,0,0,0,1,0,0,0,0,0,1,0,0,0,8.00,2
+"More output formats",1,0,0,0,0,1,0,0,0,0,0,1,0,0,6.33,3
+"More data quality code (eg clutter rejection, biological masks..)",0,0,0,0,0,0,0,0,0,1,0,1,0,0,11.00,2
+"Velocity Azimuth Display wind retrievals",0,1,0,1,0,1,0,0,0,0,0,0,0,0,4.00,3
+"Quasi-Vertical Profile reconstruction from a list of radars",0,0,0,1,0,0,1,0,1,0,0,0,0,0,6.67,3
+"Add the option of Cartopy map backend to the existing basemap in RadarMapDisplay",0,0,0,0,0,0,0,0,0,1,0,0,1,1,11.50,3
+"More high level retrievals from the literature (Eg DSD, Particle ID..)",0,1,1,0,0,0,0,0,0,0,0,0,0,0,2.50,2
+"Ability to handle Radar Spectra and perform retrievals on that",0,0,1,0,0,1,1,0,0,0,0,0,0,0,5.33,3
+,,,,,,,,,,,,,,,"answered question",3
+,,,,,,,,,,,,,,,"skipped question",32
+
+
+
+"Q21. What features would encourage you to use Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Feature 1","100.0 %",1
+"Feature 2","0.0 %",0
+"Feature 3","0.0 %",0
+,"answered question",1
+,"skipped question",34
+
+
+
+"Q22. Does anyone in your team or institution use Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Yes","33.3 %",1
+"No","33.3 %",1
+"I do not know","33.3 %",1
+,"answered question",3
+,"skipped question",32
+
+
+
+"Q23. Comment on barriers to you using Py-ART"
+
+"Answer Options","Yep, This stops me using Py-ART","This is a deterrent from using Py-ART","Neutral","Not a barrier","Really not a barrier","N/A","Rating Average","Response Count"
+"Radars are just not my thing and Py-ART is all about radars",0,0,2,0,1,0,3.67,3
+"I have my own software I am very happy using",0,1,1,1,0,0,3.00,3
+"I am not a Python User",0,0,1,1,1,0,4.00,3
+"Most of my analysis is done by others in our group",0,0,2,0,1,0,3.67,3
+"Difficulty to install",1,0,1,0,0,1,2.00,3
+"Honestly, I had never heard of it until I saw this survey",0,0,1,0,1,1,4.00,3
+,,,,,,,"answered question",3
+,,,,,,,"skipped question",32
+
+
+
+"Q24. Would you consider yourself"
+
+"Answer Options","Response Percent","Response Count"
+"Mainly involved in using models, limited use of observations","0.0 %",0
+"Sitting between using models and observations","29.2 %",7
+"Mainly involved in using observations, rarely use or interact with numerical models","70.8 %",17
+,"answered question",24
+,"skipped question",11
+
+
+
+"Q25. First, Some information about you, what is your role in your organization?"
+
+"Answer Options","Response Percent","Response Count"
+"Undergraduate Student","0.0 %",0
+"Graduate student","0.0 %",0
+"Research assistant","0.0 %",0
+"Postdoctoral","0.0 %",0
+"Scientist/professional (eg scientist within a lab/non-teaching role, Government Scientist, FFRDC or federal contractor)","0.0 %",0
+"Tenure track or Tenured Proffessor","0.0 %",0
+"Retired","0.0 %",0
+"None of the above","0.0 %",0
+,"answered question",0
+,"skipped question",35
+
+
+
+"Q26. What type of organization do you belong to or study in?"
+
+"Answer Options","Response Percent","Response Count"
+"University","0.0 %",0
+"Government contractor, USA (eg National Lab, NCAR)","0.0 %",0
+"Government contractor, Non-USA","0.0 %",0
+"US Government Employee","0.0 %",0
+"Employ of a Government but not the US","0.0 %",0
+"Private Industry","0.0 %",0
+"Self employed or unemployed","0.0 %",0
+"none of the above","0.0 %",0
+,"answered question",0
+,"skipped question",35
+
+
+
+"Q27. How long have you been using Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"less than a month","0.0 %",0
+"Greater than a month less than 6 months","0.0 %",0
+"greater than 6 months less than a year","0.0 %",0
+"a year or greater","0.0 %",0
+,"answered question",0
+,"skipped question",35
+
+
+
+"Q28. OS?"
+
+"Answer Options","Response Percent","Response Count"
+"Linux","0.0 %",0
+"Windows","0.0 %",0
+"Mac","0.0 %",0
+,"answered question",0
+,"skipped question",35
+
+
+
+"Q29. Install method"
+
+"Answer Options","Response Percent","Response Count"
+"My own Scipy stack, Installed from source","0.0 %",0
+"On top of Anaconda, installed from source","0.0 %",0
+"Binary install from the jjhelmus channel","0.0 %",0
+"Pip install","0.0 %",0
+,"answered question",0
+,"skipped question",35
+
+
+
+"Q30. Favorite feature"
+
+"Answer Options","1","2","3","4","5","6","7","8","9","N/A","Rating Average","Response Count"
+"Plotting/visualization",0,0,0,0,0,0,0,0,0,0,0.00,0
+"So many formats",0,0,0,0,0,0,0,0,0,0,0.00,0
+"Gridding including gridding multiple radars",0,0,0,0,0,0,0,0,0,0,0.00,0
+"Polarimetric phase processing processing (LP)",0,0,0,0,0,0,0,0,0,0,0.00,0
+"Polarimetric phase processing processing (other)",0,0,0,0,0,0,0,0,0,0,0.00,0
+"Dealiasing",0,0,0,0,0,0,0,0,0,0,0.00,0
+"As a dependency for CSU_Tools or ARTView or other",0,0,0,0,0,0,0,0,0,0,0.00,0
+"Knowing VAPS developed easily integrate with ADI/ARM systems",0,0,0,0,0,0,0,0,0,0,0.00,0
+"Attenuation Correction",0,0,0,0,0,0,0,0,0,0,0.00,0
+,,,,,,,,,,,"answered question",0
+,,,,,,,,,,,"skipped question",35
+
+
+
+"Q31. Rank possible new features"
+
+"Answer Options","1","2","3","4","5","6","7","8","9","10","11","12","13","No idea what this is","Rating Average","Response Count"
+"Ingest of WRF data into the Py-ART Grid Model",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Cell/Object Tracking",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Multi-Doppler Winds",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"More Bulk statistics of grid or radar contents (CFAD, echo top heights etc..)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Easier ""One step"" rainfall retrievals",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"More input formats",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"More output formats",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"More data quality code (eg clutter rejection, biological masks..)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Velocity Azimuth Display wind retrievals",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Quasi-Vertical Profile reconstruction from a list of radars",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Add the option of Cartopy map backend to the existing basemap in RadarMapDisplay",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"More high level retrievals from the literature (Eg DSD, Particle ID..)",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+"Ability to handle Radar Spectra and perform retrievals on that",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.00,0
+,,,,,,,,,,,,,,,"answered question",0
+,,,,,,,,,,,,,,,"skipped question",35
+
+
+
+"Q32. What killer new feature would you like to see in Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Feature 1","0.0 %",0
+"Feature 2","0.0 %",0
+"Feature 3","0.0 %",0
+,"answered question",0
+,"skipped question",35
+
+
+
+"Q33. Have you ever contributed to Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Yes! Via a Pull request on GitHub.","0.0 %",0
+"Yes! I have contributed IP or code that was implemented by some one else.","0.0 %",0
+"No, but I want to","0.0 %",0
+"No, and I am not interested in doing so.","0.0 %",0
+,"answered question",0
+,"skipped question",35
+
+
+
+"Q34. What barriers are there to you being a contributor? (Hit N/A if you already are!)"
+
+"Answer Options","Big barrier","Somewhat of a barrier","Neutral","Not really a barrier","Not a barrier at all","N/A","Rating Average","Response Count"
+"I do not understand Git or GitHub",0,0,0,0,0,0,0.00,0
+"I do not think I have done anything worth contributing",0,0,0,0,0,0,0.00,0
+"Institutional policies (ie IP issues)",0,0,0,0,0,0,0.00,0
+"I feel I need to clean the code and add unit tests",0,0,0,0,0,0,0.00,0
+"Just not enough time",0,0,0,0,0,0,0.00,0
+,,,,,,,"answered question",0
+,,,,,,,"skipped question",35
+
+
+
+"Q35. First, Some information about you, what is your role in your organization?"
+
+"Answer Options","Response Percent","Response Count"
+"Undergraduate Student","0.0 %",0
+"Graduate student","0.0 %",0
+"Research assistant","0.0 %",0
+"Postdoctoral","0.0 %",0
+"Scientist/professional (eg scientist within a lab/non-teaching role, Government Scientist, FFRDC or federal contractor)","33.3 %",1
+"Tenure track or Tenured Proffessor","66.7 %",2
+"Retired","0.0 %",0
+"None of the above","0.0 %",0
+,"answered question",3
+,"skipped question",32
+
+
+
+"Q36. What type of organization do you belong to or study in?"
+
+"Answer Options","Response Percent","Response Count"
+"University","66.7 %",2
+"Government contractor, USA (eg National Lab, NCAR)","0.0 %",0
+"Government contractor, Non-USA","0.0 %",0
+"US Government Employee","0.0 %",0
+"Employ of a Government but not the US","0.0 %",0
+"Private Industry","33.3 %",1
+"Self employed or unemployed","0.0 %",0
+"none of the above","0.0 %",0
+,"answered question",3
+,"skipped question",32
+
+
+
+"Q37. How long have you been using Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"less than a month","0.0 %",0
+"Greater than a month less than 6 months","0.0 %",0
+"greater than 6 months less than a year","33.3 %",1
+"a year or greater","66.7 %",2
+,"answered question",3
+,"skipped question",32
+
+
+
+"Q38. OS?"
+
+"Answer Options","Response Percent","Response Count"
+"Linux","66.7 %",2
+"Windows","33.3 %",1
+"Mac","0.0 %",0
+,"answered question",3
+,"skipped question",32
+
+
+
+"Q39. Install method"
+
+"Answer Options","Response Percent","Response Count"
+"My own Scipy stack, Installed from source","0.0 %",0
+"On top of Anaconda, installed from source","66.7 %",2
+"Binary install from the jjhelmus channel","33.3 %",1
+"Pip install","0.0 %",0
+,"answered question",3
+,"skipped question",32
+
+
+
+"Q40. Favorite feature"
+
+"Answer Options","1","2","3","4","5","6","7","8","9","N/A","Rating Average","Response Count"
+"Plotting/visualization",2,0,0,0,0,1,0,0,0,0,2.67,3
+"So many formats",0,2,0,0,0,0,0,1,0,0,4.00,3
+"Gridding including gridding multiple radars",0,0,0,0,1,1,0,1,0,0,6.33,3
+"Polarimetric phase processing processing (LP)",0,0,1,1,0,0,0,0,0,0,3.50,2
+"Polarimetric phase processing processing (other)",0,1,0,0,1,0,1,0,0,0,4.67,3
+"Dealiasing",0,0,0,2,0,1,0,0,0,0,4.67,3
+"As a dependency for CSU_Tools or ARTView or other",0,0,1,0,0,0,0,1,0,1,5.50,3
+"Knowing VAPS developed easily integrate with ADI/ARM systems",0,0,0,0,0,0,0,0,1,2,9.00,3
+"Attenuation Correction",0,0,1,0,0,0,2,0,0,0,5.67,3
+,,,,,,,,,,,"answered question",3
+,,,,,,,,,,,"skipped question",32
+
+
+
+"Q41. Rank possible new features"
+
+"Answer Options","1","2","3","4","5","6","7","8","9","10","11","12","13","No idea what this is","Rating Average","Response Count"
+"Ingest of WRF data into the Py-ART Grid Model",0,2,0,0,0,0,0,0,0,0,0,0,1,0,5.67,3
+"Cell/Object Tracking",2,0,0,0,0,0,0,1,0,0,0,0,0,0,3.33,3
+"Multi-Doppler Winds",0,0,2,0,0,0,0,0,1,0,0,0,0,0,5.00,3
+"More Bulk statistics of grid or radar contents (CFAD, echo top heights etc..)",0,1,0,1,0,0,1,0,0,0,0,0,0,0,4.33,3
+"Easier ""One step"" rainfall retrievals",0,0,0,0,2,0,0,0,0,1,0,0,0,0,6.67,3
+"More input formats",0,0,0,1,0,0,1,0,0,0,0,1,0,0,7.67,3
+"More output formats",1,0,0,0,0,0,0,1,0,0,0,0,0,0,4.50,2
+"More data quality code (eg clutter rejection, biological masks..)",0,0,0,0,0,1,0,0,0,1,0,1,0,0,9.33,3
+"Velocity Azimuth Display wind retrievals",0,0,1,0,0,0,0,0,2,0,0,0,0,0,7.00,3
+"Quasi-Vertical Profile reconstruction from a list of radars",0,0,0,0,1,0,1,0,0,0,0,0,0,0,6.00,2
+"Add the option of Cartopy map backend to the existing basemap in RadarMapDisplay",0,0,0,0,0,1,0,1,0,0,0,0,0,0,7.00,2
+"More high level retrievals from the literature (Eg DSD, Particle ID..)",0,0,0,0,0,0,0,0,0,1,2,0,0,0,10.67,3
+"Ability to handle Radar Spectra and perform retrievals on that",0,0,0,1,0,0,0,0,0,0,0,0,0,1,4.00,2
+,,,,,,,,,,,,,,,"answered question",3
+,,,,,,,,,,,,,,,"skipped question",32
+
+
+
+"Q42. What killer new feature would you like to see in Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Feature 1","100.0 %",1
+"Feature 2","100.0 %",1
+"Feature 3","0.0 %",0
+,"answered question",1
+,"skipped question",34
+
+
+
+"Q43. Have you ever contributed to Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Yes! Via a Pull request on GitHub.","33.3 %",1
+"Yes! I have contributed IP or code that was implemented by some one else.","0.0 %",0
+"No, but I want to","66.7 %",2
+"No, and I am not interested in doing so.","0.0 %",0
+,"answered question",3
+,"skipped question",32
+
+
+
+"Q44. What barriers are there to you being a contributor? (Hit N/A if you already are!)"
+
+"Answer Options","Big barrier","Somewhat of a barrier","Neutral","Not really a barrier","Not a barrier at all","N/A","Rating Average","Response Count"
+"I do not understand Git or GitHub",1,1,0,0,0,1,1.50,3
+"I do not think I have done anything worth contributing",1,0,0,0,1,1,3.00,3
+"Institutional policies (ie IP issues)",0,0,0,0,2,1,5.00,3
+"I feel I need to clean the code and add unit tests",1,0,1,0,0,1,2.00,3
+"Just not enough time",1,1,0,0,0,1,1.50,3
+,,,,,,,"answered question",3
+,,,,,,,"skipped question",32
+
+
+
+"Q45. First, Some information about you, what is your role in your organization?"
+
+"Answer Options","Response Percent","Response Count"
+"Undergraduate Student","0.0 %",0
+"Graduate student","40.0 %",6
+"Research assistant","20.0 %",3
+"Postdoctoral","0.0 %",0
+"Scientist/professional (eg scientist within a lab/non-teaching role, Government Scientist, FFRDC or federal contractor)","26.7 %",4
+"Tenure track or Tenured Proffessor","6.7 %",1
+"Retired","0.0 %",0
+"None of the above","6.7 %",1
+,"answered question",15
+,"skipped question",20
+
+
+
+"Q46. What type of organization do you belong to or study in?"
+
+"Answer Options","Response Percent","Response Count"
+"University","66.7 %",10
+"Government contractor, USA (eg National Lab, NCAR)","0.0 %",0
+"Government contractor, Non-USA","13.3 %",2
+"US Government Employee","6.7 %",1
+"Employ of a Government but not the US","6.7 %",1
+"Private Industry","0.0 %",0
+"Self employed or unemployed","6.7 %",1
+"none of the above","0.0 %",0
+,"answered question",15
+,"skipped question",20
+
+
+
+"Q47. How long have you been using Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"less than a month","13.3 %",2
+"Greater than a month less than 6 months","0.0 %",0
+"greater than 6 months less than a year","26.7 %",4
+"a year or greater","60.0 %",9
+,"answered question",15
+,"skipped question",20
+
+
+
+"Q48. OS?"
+
+"Answer Options","Response Percent","Response Count"
+"Linux","40.0 %",6
+"Windows","13.3 %",2
+"Mac","46.7 %",7
+,"answered question",15
+,"skipped question",20
+
+
+
+"Q49. Install method"
+
+"Answer Options","Response Percent","Response Count"
+"My own Scipy stack, Installed from source","0.0 %",0
+"On top of Anaconda, installed from source","92.9 %",13
+"Binary install from the jjhelmus channel","0.0 %",0
+"Pip install","7.1 %",1
+,"answered question",14
+,"skipped question",21
+
+
+
+"Q50. Favorite feature"
+
+"Answer Options","1","2","3","4","5","6","7","8","9","N/A","Rating Average","Response Count"
+"Plotting/visualization",6,3,4,0,0,0,0,0,0,0,1.85,13
+"So many formats",4,2,4,2,0,0,0,0,1,0,2.85,13
+"Gridding including gridding multiple radars",1,3,1,1,3,0,0,2,0,3,4.09,14
+"Polarimetric phase processing processing (LP)",0,0,0,2,2,2,2,2,0,4,6.00,14
+"Polarimetric phase processing processing (other)",0,0,0,0,2,2,4,1,0,4,6.44,13
+"Dealiasing",1,4,1,2,1,2,0,1,0,1,3.75,13
+"As a dependency for CSU_Tools or ARTView or other",1,1,1,1,3,2,1,1,0,2,4.73,13
+"Knowing VAPS developed easily integrate with ADI/ARM systems",0,0,0,0,1,0,0,1,4,6,8.17,12
+"Attenuation Correction",0,0,1,3,0,2,3,1,1,3,5.91,14
+,,,,,,,,,,,"answered question",14
+,,,,,,,,,,,"skipped question",21
+
+
+
+"Q51. Rank possible new features"
+
+"Answer Options","1","2","3","4","5","6","7","8","9","10","11","12","13","No idea what this is","Rating Average","Response Count"
+"Ingest of WRF data into the Py-ART Grid Model",1,1,1,1,0,1,3,0,2,0,2,0,2,0,7.36,14
+"Cell/Object Tracking",0,4,3,4,2,0,0,0,0,0,0,1,0,0,3.93,14
+"Multi-Doppler Winds",9,1,0,0,2,0,0,0,0,1,1,0,0,1,3.00,15
+"More Bulk statistics of grid or radar contents (CFAD, echo top heights etc..)",1,0,5,2,1,1,1,2,0,1,0,1,0,0,5.33,15
+"Easier ""One step"" rainfall retrievals",0,1,1,0,1,1,0,1,3,2,2,1,2,0,8.73,15
+"More input formats",1,1,1,2,2,1,2,0,1,1,1,1,0,0,6.14,14
+"More output formats",2,2,1,0,1,2,0,2,2,0,1,0,1,0,6.00,14
+"More data quality code (eg clutter rejection, biological masks..)",0,2,2,1,0,2,1,1,4,2,0,0,0,0,6.47,15
+"Velocity Azimuth Display wind retrievals",0,1,1,2,0,3,1,3,1,1,0,1,0,0,6.64,14
+"Quasi-Vertical Profile reconstruction from a list of radars",1,0,0,1,4,0,1,2,0,3,1,0,0,2,6.85,15
+"Add the option of Cartopy map backend to the existing basemap in RadarMapDisplay",0,0,0,0,2,2,2,1,0,2,1,2,0,2,8.25,14
+"More high level retrievals from the literature (Eg DSD, Particle ID..)",0,1,0,2,0,1,2,0,0,0,3,3,1,1,8.62,14
+"Ability to handle Radar Spectra and perform retrievals on that",0,1,0,0,0,1,1,2,1,0,1,2,2,3,9.18,14
+,,,,,,,,,,,,,,,"answered question",15
+,,,,,,,,,,,,,,,"skipped question",20
+
+
+
+"Q52. What killer new feature would you like to see in Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Feature 1","100.0 %",10
+"Feature 2","50.0 %",5
+"Feature 3","30.0 %",3
+,"answered question",10
+,"skipped question",25
+
+
+
+"Q53. Have you ever contributed to Py-ART?"
+
+"Answer Options","Response Percent","Response Count"
+"Yes! Via a Pull request on GitHub.","20.0 %",3
+"Yes! I have contributed IP or code that was implemented by some one else.","6.7 %",1
+"No, but I want to","40.0 %",6
+"No, and I am not interested in doing so.","33.3 %",5
+,"answered question",15
+,"skipped question",20
+
+
+
+"Q54. What barriers are there to you being a contributor? (Hit N/A if you already are!)"
+
+"Answer Options","Big barrier","Somewhat of a barrier","Neutral","Not really a barrier","Not a barrier at all","N/A","Rating Average","Response Count"
+"I do not understand Git or GitHub",1,5,0,3,5,1,3.43,15
+"I do not think I have done anything worth contributing",6,2,3,1,2,1,2.36,15
+"Institutional policies (ie IP issues)",0,0,2,2,7,4,4.45,15
+"I feel I need to clean the code and add unit tests",2,2,3,2,3,3,3.17,15
+"Just not enough time",5,7,1,0,0,1,1.69,14
+,,,,,,,"answered question",15
+,,,,,,,"skipped question",20
+
+
+
+"Q55. Thank you for your participation! Please leave any free form comments here."
+
+"Answer Options","Response Count"
+"",7
+"answered question",7
+"skipped question",28
+
+
+
