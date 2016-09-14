@@ -38,3 +38,7 @@ URL: [http://dx\.doi\.org/10\.1175/BAMS\-D\-13\-00196\.1](http://dx.doi.org/10.1
 The python arm radar toolkit \(py\-art\), a library for working with weather radar data in the python programming language\.
 *Journal of Open Research Software*, 4\(1\):e25, 2016\.
 [doi:10\.5334/jors\.119](http://dx.doi.org/10.5334/jors.119)\.  
+[OKL+15] Mariko Oue, Matthew R\. Kumjian, Yinghui Lu, Zhiyuan Jiang, Eugene E\. Clothiaux, Johannes Verlinde, and Kultegin Aydin\.
+X\-band polarimetric and ka\-band doppler spectral radar observations of a graupel\-producing arctic mixed\-phase cloud\.
+*Journal of Applied Meteorology and Climatology*, 54\(6\):1335&ndash;1351, 2015\.
+URL: [http://dx\.doi\.org/10\.1175/JAMC\-D\-14\-0315\.1](http://dx.doi.org/10.1175/JAMC-D-14-0315.1), [arXiv:http://dx\.doi\.org/10\.1175/JAMC\-D\-14\-0315\.1](http://arxiv.org/abs/http://dx.doi.org/10.1175/JAMC-D-14-0315.1), [doi:10\.1175/JAMC\-D\-14\-0315\.1](http://dx.doi.org/10.1175/JAMC-D-14-0315.1)\.  
