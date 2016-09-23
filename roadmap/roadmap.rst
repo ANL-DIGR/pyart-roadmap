@@ -91,17 +91,74 @@ combined* effectively giving two groups: those that do and do not use Py-ART.
 The survey had 35 respondents which were solicited by the ARM and Py-ART mailing
 lists, Facebook and Twitter. Of those 11 had never used Py-ART and 24 had. 
 
+.. figure:: ./images/three_panel.png
+   :scale: 50 %
+   :alt: an image
+   
+   Figure N: Pie charts showing the split between Py-ART user and non-user
+   respondants and aggregated (user/non-user) self identification of
+   organization and role within that organization. 
+
+
 Respondents were presented with a list of possible additions to Py-ART's suite
-of algorithms consisting of: Ingest of WRF data to the Py-ART grid model,
-Cell/Object Tracking, Multi-Doppler wind retrievals, more bulk statistics of
-grid or radar contents (CFAD, echo top heights etc..), easier "one step"
-rainfall retrieval, more input formats, more output formats, more data quality
-code (eg clutter rejection, biological masks..), velocity azimuth display wind
-retrievals,
+of algorithms consisting of: 
+
+1) **Ingest of WRF data to the Py-ART grid model.** The ability to ingest WRF
+out NetCDF files into the Py-ART Grid data model.
+
+2) **Cell/Object Tracking.** The implimentation of TITAN's cell tracking (Dixon
+and Wiener, 1993) or similar to create cell tracks.
+
+3) **Multi-Doppler wind retrievals.** Variational or other retrievals of
+meridional, zonal and vertical wind velocities from Doppler velocity
+measurements. 
+
+4) **More bulk statistics of grid or radar contents (CFAD, echo top heights etc..).** Functions 
+that reduce radar volumes and grids down to descriptive parameters that could be visualized as a time series.
+
+5) **Easier "one step" rainfall retrievals.** Making it
+easier to simply go from a radar volume to a rainfall map.
+
+6) **More output formats.**
+More formats to write to.
+
+7) **More input formats.** 
+More ingests.
+
+8) **Quasi-Vertical Profile reconstruction from a list of radars.** A specific
+case of item 4 along the lines of (Ryzhkov et al, 2016).
+
+9) **More data quality code (eg clutter rejection, biological masks..).** Code
+to create gatefilters to remove non-meteorological echoes. 
+
+10) **Add the option of Cartopy map backend to the existing basemap in RadarMapDisplay.** The ability 
+to use the UK Metoffice developed Cartopy backend for map based displays. Cartopy is newer 
+than the existing basemap backend but is likely to have a longer shelf life due to basemap 
+not being supported beyond 2020. 
+
+11) **Ability to handle Radar Spectra and perform retrievals on.** Extension of
+the Py-ART data model to handle each gate having a spectra consisting of power
+as a function of velocity or phase. This will allow for an extension into
+spectra based retrievals such as clutter removal by interpolating over the "zero
+peak".
+
+12) **More high level retrievals from the literature (Eg DSD, Particle ID..).**
+Systematic inclusion of various retrievals dealing with particle size retrieval
+and rain/snow/hail/ice retrievals. 
+
+13) **Velocity Azimuth Display wind retrievals.** Ability to retrieve flow
+vectors as a function of height. Could include advanced techniques such as DVAD
+(Lee et al, 2014). 
+
+Respondents were only presented with the bolded text, the extra information
+would have been excessive but it could be assumed that familiarity may have
+played some role in voting.
+
+
 
 **METHODOLOGY OF THE RANKING:**
 
-A selector dropdown ranks each feature between one and number of options.  
+A selector drop-down ranks each feature between one and number of options.  
 A count of the responses are multiplied against their ranked rank and summed. 
 An example score would be three responses for rank 1 would be three points 4 
 responses for rank 3 means 16 points added together 19 points.  That sum is 
@@ -110,58 +167,83 @@ weighted ranked score, having the lowest score means that feature is the most
 important to the users. The example would yield a rank score of 2.7
 
 
-
 Non Py-ART Users
 ----------------
 
+Those who identified as non-users of Py-ART were asked "What feature would make
+you more likely to use Py-ART". In advertising the survey we made a particular
+effort to get respondents who do not use Py-ART so we did not suffer from an
+"echo-chamber" effect. Figure N shows the results of this question. The most
+popular weighted rank for new feature from non-users was "More high level
+retrievals". Unsurprisingly the item relating to the mapping back-end Cartopy was
+the least popular since a fair assumption is many of the non-users are also
+non-Python users and would not even know what Cartopy is. There is no real
+sudden decrease anywhere along the rankings. 
 
-**THE RESPONSE TO THE QUESTION "RANK THESE IN ORDER OF HOW LIKELY THEY ARE TO GET YOU INTERESTED IN USING PY-ART":**
+.. figure:: ./images/non_users_desired_features.png
+   :scale: 30 %
+   :alt: an image
 
-1.  More high level retrievals from the literature (Eg DSD, Particle ID..)
-2.  Multi-Doppler Winds
-3.  Velocity Azimuth Display wind retrievals
-4.  Easier "One step" rainfall retrievals
-5.  Cell/Object Tracking
-6.  Ability to handle Radar Spectra and perform retrievals on that
-7.  More Bulk statistics of grid or radar contents (CFAD, echo top heights etc..)
-8.  More output formats
-9.  Quasi-Vertical Profile reconstruction from a list of radars
-10. More input formats
-11. Ingest of WRF data into the Py-ART Grid Model
-12. More data quality code (eg clutter rejection, biological masks..)
-13. Add the option of Cartopy map backend to the existing basemap in RadarMapDisplay
+   Figure N: Average ratings for the question "How likely would these added
+   features be to get you to use Py-ART" aimed at non-users
 
 
 Py-ART Users
 ------------
 
-**THE WEIGHTED RANKED ORDER OF FAVORITE FEATURE IS:**
+With Py-ART users, in addition to asking what feature they desired the survey
+also asked them to identify their favourite feature. Figure N shows the weighted
+rankings for the responses. Visualization and plotting was the most popular
+feature closely followed by an appreciation for the wide variety of formats that
+Py-ART can read. While unsurprising this is in-line with the development
+priorities of Py-ART to-date as the team sees the two biggest barriers to new
+users of radar data being the reading of exotically formatted files and working
+out what those files contain. Rankings decreased gradually with a notable break
+when it came to "Knowing VAPS will work with ADI/ARM systems". Even though this
+is one of Py-ART's primary aims (to enable PI developed data to integrate easily
+with ARM systems) this is not surprising. If anything the development team is a
+victim of their own success in marketing Py-ART to the wider community. It does
+show, however, we have some work to do in helping DoE funded PIs in using the
+toolkit and advocating that funded retrievals be implemented in Py-ART. 
 
-1.  Plotting/visualization
-2.  Diverse file format support
-3.  Dealiasing
-4.  Gridding include gridding of multiple radars
-5.  As a dependency for CSU_Tools or ARTView or other
-6.  Attenuation Correction
-7.  Polarimetric phase processing processing (LP) (Tied with 8)
-8.  Polarimetric phase processing processing (other) (Tied with 7)
-9.  Knowing VAPS developed easily integrate with ADI/ARM systems
+.. figure:: ./images/users_favourite_existing_features.png
+   :scale: 30 %
+   :alt: an image
 
-**REQUESTED FEATURES IN ORDER BY POPULARITY OF WEIGHTED RANK:**
+   Figure N: 
 
-1.  Multi-Doppler Winds
-2.  Cell/Object Tracking
-3.  More Bulk statistics of grid or radar contents (CFAD, echo top heights etc..)
-4.  More output formats
-5.  More input formats
-6.  Velocity Azimuth Display wind retrievals
-7.  Quasi-Vertical Profile reconstruction from a list of radars
-8.  More data quality code (eg clutter rejection, biological masks..)
-9.  Ingest of WRF data into the Py-ART Grid Model
-10. Add the option of Cartopy map backend to the existing basemap in RadarMapDisplay
-11. Easier "One step" rainfall retrievals
-12. Ability to handle Radar Spectra and perform retrievals on that
-13. More high level retrievals from the literature (Eg DSD, Particle ID..)
+Figure N shows the weighted ranks for desired new features for existing Py-ART
+users. Figure N shows several key differences to figure N. Multi-Doppler
+retrievals is now the most popular feature very closely followed by Cell
+Tracking. And, notably, more literature based techniques is the lowest desire by
+existing users. Perhaps because many of them, using Py-ART's easy to use data
+model, have implemented many of these techniques at their home institutions. 
+
+.. figure:: ./images/users_desired_features.png
+   :scale: 30 %
+   :alt: an image
+
+   Figure N: 
+
+As well as having users pick from feature lists designed by the survey
+developers free-form answers were solicited with the questions "what would be
+Py-ART's Killer app". Users were allowed to enter three items each so they will
+not all be documented here and are available in Appendix 1. The key take aways
+are:
+
+- Multi-Doppler retrievals are in high demand from the community. 
+
+- A functionality that allows cross-sections through a radar volume between two
+  points is desired. 
+
+- Further desires for better dealiasing.
+
+
+Finally, we took the opportunity to ask users about contributing. There were 18 responses to the question "Have you ever contributed to Py-ART?" Of the 18, 22.2%(4) said Yes via pull request through Github, 5.6%(1) said yes, by intellectual property implemented by someone else, 44.4%(8) said no, but they wanted to and 27%(5) said no and they were not interested in doing so.
+
+
+
+
 
 Proposed Governance Structure
 =============================
@@ -176,6 +258,8 @@ Priority Features
 In priority order the features we want added either by ARM or features that if
 they are in a PR we will be very happy to help with this PR
 
+References
+==========
 (Heistermann et al, 2104) Heistermann, M., Collis, S., Dixon, M.J., Giangrande, S., Helmus, J.J., Kelley, B., Koistinen, J., Michelson, D.B., Peura, M., Pfaff, T., Wolff, D.B., 2014. The Emergence of Open Source Software for the Weather Radar Community. Bull. Amer. Meteor. Soc. doi:10.1175/BAMS-D-13-00240.1
 
 (Helmus and Collis, 2016) Helmus, J.J. & Collis, S.M., (2016). The Python ARM Radar Toolkit (Py-ART), a Library for Working with Weather Radar Data in the Python Programming Language. Journal of Open Research Software. 4(1), p.e25. DOI: http://doi.org/10.5334/jors.119
@@ -183,6 +267,65 @@ they are in a PR we will be very happy to help with this PR
 (Mather and Voyles, 2012) Mather, J.H., Voyles, J.W., 2012. The Arm Climate Research Facility: A Review of Structure and Capabilities. Bull. Amer. Meteor. Soc. 94, 377–392. doi:10.1175/BAMS-D-11-00218.1
  
 (Giangrande et al, 2013) Giangrande, S.E., McGraw, R., Lei, L., 2013. An Application of Linear Programming to Polarimetric Radar Differential Phase Processing. Journal of Atmospheric and Oceanic Technology 30, 1716–1729. doi:10.1175/JTECH-D-12-00147.1
+
+(Dixon and Wiener, 1993) Dixon, M., Wiener, G., 1993. TITAN: Thunderstorm Identification, Tracking, Analysis, and Nowcasting—A Radar-based Methodology. Journal of Atmospheric and Oceanic Technology 10, 785–797. doi:10.1175/1520-0426(1993)010<0785:TTITAA>2.0.CO;2
+
+(Ryzhkov et al, 2016) Alexander Ryzhkov, Pengfei Zhang, Heather Reeves, Matthew Kumjian, Timo Tschallener, Silke Trömel, and Clemens Simmer, 2016: Quasi-Vertical Profiles—A New Way to Look at Polarimetric Radar Data. J. Atmos. Oceanic Technol., 33, 551–562, doi: 10.1175/JTECH-D-15-0020.1.
+
+(Lee et al, 2014) Wen-Chau Lee, Xiaowen Tang, and Ben J.-D. Jou, 2014: Distance Velocity–Azimuth Display (DVAD)—New Interpretation and Analysis of Doppler Velocity. Mon. Wea. Rev., 142, 573–589, doi: 10.1175/MWR-D-13-00196.1.
+
+Appendix 1: Free form responses to "Killer App"
+===============================================
+
+These comments have no order to them so they are listed below for reference: 
+
+Feature 1 (11 responses):
+
+    Easier installation
+
+    Dual-Doppler Wind Calculations
+
+    More advanced feature with Cross-section cut, based on any two single points, similar to iris
+
+    Dual-Doppler Winds
+
+    Treat variable like this variable
+
+    cross sections between any two points
+
+    RadarCollection
+
+    Advection correction
+
+    More precise data model - e.g in Nexrad Level 3 the width of azimuth gates are not always uniform and in the data format the rays are described with "azimuth of the beginning of the ray" and width of the ray. See relevant ICDs on Level 3.
+
+    Multi-Doppler wind retrievals
+
+    Additional weighting function options when gridding radar data, besides the Barnes and Cressman schemes
+
+
+Feature 2: (6 responses)
+
+    Dealiasing X-Band Vertical Profiling Radar
+
+    More advanced algorithm, like ZDR column detection or NCAR PID algorithms
+    
+    Easier Geotiff compatibility
+
+    Carry along a map image/background to help speed up multiple plotting instances of same radar
+
+    Improved dealiasing algorithms
+
+    Hydro ID
+
+    
+Feature 3: (3 responses) 
+
+    Collaboration with SingleDop 
+
+    Improved dealiasing 
+
+    Improvements to ARTview to make it replace solo3
 
 
 
