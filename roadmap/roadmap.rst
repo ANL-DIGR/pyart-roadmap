@@ -69,11 +69,99 @@ is the subject of this document. The roadmap document is broken down into:
 We also include a list of papers that have been accepted or are in process that
 have made use of Py-ART as a reference at the end of this document. 
 
-
-
 The Py-ART Roadmap Survey
 =========================
-Description and methods and lots of images
+In order to produce a development roadmap we first needed to get the views of
+users and stakeholders as to what should be in the toolkit. To this end we
+designed the Py-ART Roadmap survey. The survey was hosted on SurveyMonkey and we
+got some much appreciated assistance from the ARM outreach office in editing some
+questions for clarity. The Survey asked users to self identify as either a
+Py-ART user or not and then asked if they would identify as:
+
+1) A person who mainly works with observational data
+
+2) A person who uses a mix of modelling and observational data
+
+3) A person who mainly works with model data
+
+Unfortunately we did not get a statistically significant enough sample to
+discriminate between this groups so for this document *all user groups will be
+combined* effectively giving two groups: those that do and do not use Py-ART.
+
+The survey had 35 respondents which were solicited by the ARM and Py-ART mailing
+lists, Facebook and Twitter. Of those 11 had never used Py-ART and 24 had. 
+
+Respondents were presented with a list of possible additions to Py-ART's suite
+of algorithms consisting of: Ingest of WRF data to the Py-ART grid model,
+Cell/Object Tracking, Multi-Doppler wind retrievals, more bulk statistics of
+grid or radar contents (CFAD, echo top heights etc..), easier "one step"
+rainfall retrieval, more input formats, more output formats, more data quality
+code (eg clutter rejection, biological masks..), velocity azimuth display wind
+retrievals,
+
+**METHODOLOGY OF THE RANKING:**
+
+A selector dropdown ranks each feature between one and number of options.  
+A count of the responses are multiplied against their ranked rank and summed. 
+An example score would be three responses for rank 1 would be three points 4 
+responses for rank 3 means 16 points added together 19 points.  That sum is 
+divided by the total number of responses to that feature giving the feature a 
+weighted ranked score, having the lowest score means that feature is the most 
+important to the users. The example would yield a rank score of 2.7
+
+
+
+Non Py-ART Users
+----------------
+
+
+**THE RESPONSE TO THE QUESTION "RANK THESE IN ORDER OF HOW LIKELY THEY ARE TO GET YOU INTERESTED IN USING PY-ART":**
+
+1.  More high level retrievals from the literature (Eg DSD, Particle ID..)
+2.  Multi-Doppler Winds
+3.  Velocity Azimuth Display wind retrievals
+4.  Easier "One step" rainfall retrievals
+5.  Cell/Object Tracking
+6.  Ability to handle Radar Spectra and perform retrievals on that
+7.  More Bulk statistics of grid or radar contents (CFAD, echo top heights etc..)
+8.  More output formats
+9.  Quasi-Vertical Profile reconstruction from a list of radars
+10. More input formats
+11. Ingest of WRF data into the Py-ART Grid Model
+12. More data quality code (eg clutter rejection, biological masks..)
+13. Add the option of Cartopy map backend to the existing basemap in RadarMapDisplay
+
+
+Py-ART Users
+------------
+
+**THE WEIGHTED RANKED ORDER OF FAVORITE FEATURE IS:**
+
+1.  Plotting/visualization
+2.  Diverse file format support
+3.  Dealiasing
+4.  Gridding include gridding of multiple radars
+5.  As a dependency for CSU_Tools or ARTView or other
+6.  Attenuation Correction
+7.  Polarimetric phase processing processing (LP) (Tied with 8)
+8.  Polarimetric phase processing processing (other) (Tied with 7)
+9.  Knowing VAPS developed easily integrate with ADI/ARM systems
+
+**REQUESTED FEATURES IN ORDER BY POPULARITY OF WEIGHTED RANK:**
+
+1.  Multi-Doppler Winds
+2.  Cell/Object Tracking
+3.  More Bulk statistics of grid or radar contents (CFAD, echo top heights etc..)
+4.  More output formats
+5.  More input formats
+6.  Velocity Azimuth Display wind retrievals
+7.  Quasi-Vertical Profile reconstruction from a list of radars
+8.  More data quality code (eg clutter rejection, biological masks..)
+9.  Ingest of WRF data into the Py-ART Grid Model
+10. Add the option of Cartopy map backend to the existing basemap in RadarMapDisplay
+11. Easier "One step" rainfall retrievals
+12. Ability to handle Radar Spectra and perform retrievals on that
+13. More high level retrievals from the literature (Eg DSD, Particle ID..)
 
 Proposed Governance Structure
 =============================
