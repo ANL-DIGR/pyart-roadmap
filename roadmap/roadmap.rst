@@ -185,7 +185,21 @@ sudden decrease anywhere along the rankings.
    :alt: an image
 
    Figure N: Average ratings for the question "How likely would these added
-   features be to get you to use Py-ART" aimed at non-users
+   features be to get you to use Py-ART?" aimed at non-users
+
+The survey also asked about barriers that non-users faced to using Py-ART.
+Surprisingly the number one barrier was "Difficulty to install" followed by
+"Most of my analysis is done by others in our group." The least popular barrier
+was "I am not a python user" which is pleasing as it is indicative of a large
+uptake of Python in the community. 
+
+.. figure:: ./images/non_user_barriers.png
+   :scale: 30 %
+   :alt: an image
+
+   Figure N: Average ratings for the question "What is preventing you using
+   Py-ART?"
+
 
 
 Py-ART Users
@@ -238,15 +252,58 @@ are:
 
 - Further desires for better dealiasing.
 
+We took the opportunity to ask users about contributing. There were 18 responses to the question "Have you ever contributed to Py-ART?" Of the 18, 22.2%(4) said Yes via pull request through Github, 5.6%(1) said yes, by intellectual property implemented by someone else, 44.4%(8) said no, but they wanted to and 27%(5) said no and they were not interested in doing so.
 
-Finally, we took the opportunity to ask users about contributing. There were 18 responses to the question "Have you ever contributed to Py-ART?" Of the 18, 22.2%(4) said Yes via pull request through Github, 5.6%(1) said yes, by intellectual property implemented by someone else, 44.4%(8) said no, but they wanted to and 27%(5) said no and they were not interested in doing so.
+Finally we asked those who have not contributed what the barrier was to
+contributing.
 
+.. figure:: ./images/user_barriers.png
+   :scale: 30 %
+   :alt: an image
 
+   Figure N: Average ratings for the question "What is preventing you
+   contributing to Py-ART?"
 
-
+Figure N shows the average ranking with the most common barrier being "Just not
+enough time". This is not surprising as many researchers would not be judged
+by open source contributions and would not value such in advancing their
+careers. The second most common is "I do not think I have done anything worth
+contributing". This is more than likely a misunderstanding as even things as
+simple as correcting typographical errors in the documentation is a welcome
+contribution and small changes are much easier to accept than more substantial
+changes. The lowest ranking issue is to do with intellectual property issues.
+This is pleasing as it means there are few institutional roadblocks to our users
+contributing.
 
 Proposed Governance Structure
 =============================
+The motivation of this roadmap is to ensure that the effort funded by the ARM
+program is responsive to the needs of the stakeholders of the program. A large
+task of the lead developer has been in assisting contributors in modifying pull
+requests (contributions) so that they can be accepted into Py-ART. While it is
+important to have a consistent standard across the codebase many of the tasks
+associated with accepting pull requests can be delegated to others in the
+community. Currently there are two ad-hoc defined roles in the Py-ART
+project: Science Lead and Lead Developer. This roadmap proposes the
+introduction of a third role: Associate Developer. The roles will be:
+
+**Science Lead**: Provides high level leadership for the project, organizes outreach
+and education and coordinates contributor and stakeholder input to form a long
+term vision for the project.
+
+**Lead Developer**: Responsible for overall architecture of the project. Final
+arbiter in what pull requests to accept. Develops the required style guidelines
+and coordinates the associate developers. Coordinates contributions from
+associated developers to a Contributors Guide (and contributes as well).  
+
+**Associate Developers**: Responsible, as time allows, for doing an initial
+check of pull requests for suitability and adherence to the Contributors Guide.
+Contributes to the Contributors Guide. 
+
+It will be expected that the associate developers will be recognized as key
+members of the project and acknowledged accordingly in future publications and
+presentations. 
+
 
 
 Overarching Goals for Next Five Years
