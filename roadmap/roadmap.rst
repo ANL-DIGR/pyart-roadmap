@@ -52,7 +52,7 @@ causes any unit tests to fail.
 Py-ART receives vital support for accepting pull requests, bug fixing,
 documentation, outreach and education through the ARM program which is part of
 the Climate and Environmental Sciences Division of the Office of Science in the
-Department of Energy. Due to this, and to ensure the toolkit has maximal impact
+Department of Energy. Due to this, and to ensure the toolkit has maximal impact,
 a roadmap to chart development priorities for the next five years is needed and
 is the subject of this document. 
 
@@ -175,7 +175,7 @@ vectors as a function of height. Could include advanced techniques such as DVAD
 (Lee et al, 2014). 
 
 Respondents were only presented with the bolded text, the extra information
-would have been excessive but it could be assumed that familiarity may have
+would have been excessive, but it could be assumed that familiarity may have
 played some role in voting.
 
 
@@ -185,9 +185,9 @@ played some role in voting.
 A selector drop-down ranks each feature between one and number of options.  
 A count of the responses are multiplied against their ranked rank and summed. 
 An example score would be 3 responses for rank 1 would be 3 points, 4 
-responses for rank 3 means 12 points then added together for 15 points. That sum is 
+responses for rank 3 means 12 points, then added together for 15 points. That sum is 
 divided by the total number of responses to that feature giving the feature a 
-weighted ranked score, having the lowest score means that feature is the most 
+weighted ranked score. Having the lowest score means that feature is the most 
 important to the users. The example would yield a rank score of 2.14
 
 
@@ -229,9 +229,9 @@ uptake of Python in the community.
 2.2 Py-ART Users
 ----------------
 
-With Py-ART users, in addition to asking what feature they desired the survey
+With Py-ART users, in addition to asking what feature they desired, the survey
 also asked them to identify their favourite feature. Figure 5 shows the weighted
-rankings for the responses. Visualization/plotting was the most popular
+rankings for the responses. Plotting/visualization was the most popular
 feature closely followed by an appreciation for the wide variety of formats that
 Py-ART can read. While unsurprising, this is in-line with the development
 priorities of Py-ART to-date as the team sees the two biggest barriers to new
@@ -266,7 +266,7 @@ model, have implemented many of these techniques at their home institutions.
    like to see added to Py-ART?" 
 
 As well as having users pick from feature lists designed by the survey,
-developers free-form answers were solicited with the questions "what would be
+developers' free-form answers were solicited with the questions "what would be
 Py-ART's Killer app". Users were allowed to enter three items each so they will
 not all be documented here and are available in Appendix 1. The key take aways
 are:
@@ -280,7 +280,7 @@ are:
 
 We took the opportunity to ask users about contributing. There were 18 responses to the question "Have you ever contributed to Py-ART?" Of the 18, 22.2%(4) said Yes via pull request through Github, 5.6%(1) said yes, by intellectual property implemented by someone else, 44.4%(8) said no, but they wanted to and 27%(5) said no and they were not interested in doing so.
 
-Finally we asked those who have not contributed what the barrier was to
+Finally, we asked those who have not contributed what the barrier was to
 contributing.
 
 .. figure:: ./images/user_barriers.png
@@ -309,12 +309,12 @@ task of the lead developer has been in assisting contributors in modifying pull
 requests (contributions) so that they can be accepted into Py-ART. While it is
 important to have a consistent standard across the codebase, many of the tasks
 associated with accepting pull requests can be delegated to others in the
-community. Currently there are two ad-hoc defined roles in the Py-ART
+community. Currently, there are two ad-hoc defined roles in the Py-ART
 project: Science Lead and Lead Developer. This roadmap proposes the
 introduction of a third role: Associate Developer. The roles will be:
 
 **Science Lead**: Provides high level leadership for the project, organizes outreach
-and education and coordinates contributor and stakeholder input to form a long
+and education, and coordinates contributor and stakeholder input to form a long
 term vision for the project.
 
 **Lead Developer**: Responsible for overall architecture of the project. Final
@@ -326,8 +326,8 @@ associated developers to a Contributors Guide (and contributes as well).
 check of pull requests for suitability and adherence to the Contributors Guide.
 Contributes to the Contributors Guide. 
 
-In seeking Associate Developers it will be important to seek diversity to ensure 
-there is no single point of failure in providing support to Py-ART. Ideally the project would have 2-3 Associate Developers.
+In seeking Associate Developers, it will be important to seek diversity to ensure 
+there is no single point of failure in providing support to Py-ART. Ideally, the project would have 2-3 Associate Developers.
 It will be expected that the associate developers will be recognized as key
 members of the project and are acknowledged accordingly in future publications and
 presentations. 
@@ -351,7 +351,7 @@ in on-site processing and *dimensional reduction*. That is, Py-ART can be used
 in-situ and generate descriptive metadata about radar volumes. For example CFADs, (Yueter and
 Houze 1995) and QVPs (Ryzhkov et al, 2016) that are easier to download and can
 guide further data discovery. Accordingly code that can achieve this, especially
-novel new techniques in providing summary data will be prioritized. 
+novel new techniques in providing summary data, will be prioritized. 
 
 In the roadmap survey, the need for cell tracking was raised. In general, it is
 preferred that code dealing with Py-ART generated grids becomes part of a
@@ -367,7 +367,7 @@ While it was not raised as a priority in the survey, there is a practical need t
 find an alternative geospatial library to the Basemap codebase. To this end, the
 development team will invest time to implement the Cartopy package as a mapping
 backend. This is necessitated by the phasing out of Basemap by 2020 due to lack
-of support. Initially Cartopy will be an optional backend (ie not a required
+of support. Initially, Cartopy will be an optional backend (ie not a required
 dependency of Py-ART). The development team and advanced users will work with
 the Cartopy team in reporting desired functionality so that it can become the
 primary backend for plotting radar data on maps. 
