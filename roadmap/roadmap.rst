@@ -12,7 +12,7 @@ Everyone who uses weather radar for science, in one form or another, uses
 radar software. Software is a science enabling piece of infrastructure and good
 software minimizes frustration and allows the domain expert to get to 
 understanding the phenomena being studied without needing to be an expert on
-numerics, data informatics and software engineering.
+numerics, data informatics, and software engineering.
 
 There are several platforms for interacting with radar data, the open source
 variants are well documented in (Heistermann et al 2014). The Python ARM Radar
@@ -25,8 +25,8 @@ propagation polarimetric phase shift from other local impacts (Giangrande el at,
 2013). As the collection of both algorithms and radars grew it became clear that
 the problem would become intractable unless a carefully designed architecture was designed that allowed application chains to be developed via a common data model approach.
 
-Shortly after, in early 2012 development on Py-ART began in earnest with the
-support of the ARM program. In September of 2012 Py-ART was uploaded to the
+Shortly after, in early 2012, development on Py-ART began in earnest with the
+support of the ARM program. In September of 2012, Py-ART was uploaded to the
 social coding platform GitHub at https://github.com/ARM-DOE/pyart. Py-ART was
 unofficially bumped to version 1.0.0-Dev in May of 2013 and publicly released.
 The first "stable" release was 1.2.0 in February of 2015 and the most recent
@@ -71,7 +71,7 @@ tracks and information.
 plotting data on a map.
 
 5) The introduction of a Radar 
-Spectrum data model and class in Py-ART
+Spectrum data model and class in Py-ART.
 
 6) A clean up and improvement of existing phase processing and attenuation
 correction code. 
@@ -96,7 +96,7 @@ have made use of Py-ART as a reference at the end of this document.
 2 The Py-ART Roadmap Survey
 ===========================
 In order to produce a development roadmap we first needed to get the views of
-users and stakeholders as to what should be in the toolkit. To this end we
+users and stakeholders as to what should be in the toolkit. To this end, we
 designed the Py-ART Roadmap survey. The survey was hosted on SurveyMonkey and we
 recieved some much appreciated assistance from the ARM outreach office in editing some
 questions for clarity. The Survey asked users to self identify as either a
@@ -108,8 +108,8 @@ Py-ART user or not and then asked if they would identify as:
 
 3) A person who mainly works with model data
 
-Unfortunately we did not get a statistically significant enough sample to
-discriminate between these groups so for this document *all user groups will be
+Unfortunately, we did not get a statistically significant enough sample to
+discriminate between these groups, so for this document *all user groups will be
 combined* effectively giving two groups: those that do and do not use Py-ART.
 
 The survey had 35 respondents which were solicited by the ARM and Py-ART mailing
@@ -134,7 +134,7 @@ out NetCDF files into the Py-ART Grid data model.
 and Wiener, 1993) or similar to create cell tracks.
 
 3) **Multi-Doppler wind retrievals.** Variational or other retrievals of
-meridional, zonal and vertical wind velocities from Doppler velocity
+meridional, zonal, and vertical wind velocities from Doppler velocity
 measurements. 
 
 4) **More bulk statistics of grid or radar contents (CFAD, echo top heights etc..).** Functions 
@@ -184,11 +184,11 @@ played some role in voting.
 
 A selector drop-down ranks each feature between one and number of options.  
 A count of the responses are multiplied against their ranked rank and summed. 
-An example score would be three responses for rank 1 would be three points 4 
-responses for rank 3 means 16 points then added together for 19 points. That sum is 
+An example score would be 3 responses for rank 1 would be 3 points, 4 
+responses for rank 3 means 12 points then added together for 15 points. That sum is 
 divided by the total number of responses to that feature giving the feature a 
 weighted ranked score, having the lowest score means that feature is the most 
-important to the users. The example would yield a rank score of 2.7
+important to the users. The example would yield a rank score of 2.14
 
 
 2.1 Non Py-ART Users
@@ -214,7 +214,7 @@ sudden decrease anywhere along the rankings.
 The survey also asked about barriers that non-users faced to using Py-ART.
 Figure 4 shows the weighted responses, surprisingly the number one barrier was "Difficulty to install" followed by
 "Most of my analysis is done by others in our group." The least popular barrier
-was "I am not a python user" which is pleasing as it is indicative of a large
+was "I am not a python user", which is pleasing as it is indicative of a large
 uptake of Python in the community. 
 
 .. figure:: ./images/non_user_barriers.png
@@ -231,15 +231,15 @@ uptake of Python in the community.
 
 With Py-ART users, in addition to asking what feature they desired the survey
 also asked them to identify their favourite feature. Figure 5 shows the weighted
-rankings for the responses. Visualization and plotting was the most popular
+rankings for the responses. Visualization/plotting was the most popular
 feature closely followed by an appreciation for the wide variety of formats that
-Py-ART can read. While unsurprising this is in-line with the development
+Py-ART can read. While unsurprising, this is in-line with the development
 priorities of Py-ART to-date as the team sees the two biggest barriers to new
 users of radar data being the reading of exotically formatted files and working
 out what those files contain. Rankings decreased gradually with a notable break
 when it came to "Knowing VAPS will work with ADI/ARM systems". Even though this
 is one of Py-ART's primary aims (to enable PI developed data to integrate easily
-with ARM systems) this is not surprising. If anything the development team is a
+with ARM systems), this is not surprising. If anything the development team is a
 victim of their own success in marketing Py-ART to the wider community. It does
 show, however, we have some work to do in helping DoE funded PIs in using the
 toolkit and advocating that funded retrievals be implemented in Py-ART. 
@@ -265,7 +265,7 @@ model, have implemented many of these techniques at their home institutions.
    Figure 6: Average rating for the question to users "What features would you
    like to see added to Py-ART?" 
 
-As well as having users pick from feature lists designed by the survey
+As well as having users pick from feature lists designed by the survey,
 developers free-form answers were solicited with the questions "what would be
 Py-ART's Killer app". Users were allowed to enter three items each so they will
 not all be documented here and are available in Appendix 1. The key take aways
@@ -291,14 +291,14 @@ contributing.
    contributing to Py-ART?"
 
 Figure 7 shows the average ranking with the most common barrier being "Just not
-enough time". This is not surprising as many researchers would not be judged
+enough time". This is not surprising, as many researchers would not be judged
 by open source contributions and would not value such in advancing their
 careers. The second most common is "I do not think I have done anything worth
 contributing". This is more than likely a misunderstanding as even things as
 simple as correcting typographical errors in the documentation is a welcome
 contribution and small changes are much easier to accept than more substantial
 changes. The lowest ranking issue is to do with intellectual property issues.
-This is pleasing as it means there are few institutional roadblocks to our users
+This is pleasing, as it means there are few institutional roadblocks to our users
 contributing.
 
 3 Proposed Governance Structure
@@ -307,7 +307,7 @@ The motivation of this roadmap is to ensure that the effort funded by the ARM
 program is responsive to the needs of the stakeholders of the program. A large
 task of the lead developer has been in assisting contributors in modifying pull
 requests (contributions) so that they can be accepted into Py-ART. While it is
-important to have a consistent standard across the codebase many of the tasks
+important to have a consistent standard across the codebase, many of the tasks
 associated with accepting pull requests can be delegated to others in the
 community. Currently there are two ad-hoc defined roles in the Py-ART
 project: Science Lead and Lead Developer. This roadmap proposes the
@@ -329,7 +329,7 @@ Contributes to the Contributors Guide.
 In seeking Associate Developers it will be important to seek diversity to ensure 
 there is no single point of failure in providing support to Py-ART. Ideally the project would have 2-3 Associate Developers.
 It will be expected that the associate developers will be recognized as key
-members of the project and acknowledged accordingly in future publications and
+members of the project and are acknowledged accordingly in future publications and
 presentations. 
 
 
@@ -345,7 +345,7 @@ with Py-ART and calculation and algorithms required for Multi-Doppler work well
 including advection correction, gridding and dealasing. 
 
 As ARM executes a plan to correct and calibrate many of the 30+ radars in its
-network it is expected that the data volume residing at the ARM Archive will
+network, it is expected that the data volume residing at the ARM Archive will
 grow to a point that downloading is no longer feasible. Py-ART can play a major role
 in on-site processing and *dimensional reduction*. That is, Py-ART can be used
 in-situ and generate descriptive metadata about radar volumes. For example CFADs, (Yueter and
@@ -353,18 +353,18 @@ Houze 1995) and QVPs (Ryzhkov et al, 2016) that are easier to download and can
 guide further data discovery. Accordingly code that can achieve this, especially
 novel new techniques in providing summary data will be prioritized. 
 
-In the roadmap survey the need for cell tracking was raised. In general it is
+In the roadmap survey, the need for cell tracking was raised. In general, it is
 preferred that code dealing with Py-ART generated grids becomes part of a
 codebase that depends on Py-ART (See Appendix 3) allowing the core code to focus on applications
-dealing with radial data. However since there is a clearly articulated need
+dealing with radial data. However, since there is a clearly articulated need,
 Py-ART will accept code that performs actions similar to that of (Dixon and
 Wiener 1993) in retrieving object tracks and information from Py-ART grid
 objects. If a community package is developed in Python that can fill the needs
-of the community then the developers will ensure that Py-ART works with that
+of the community, then the developers will ensure that Py-ART works with that
 code base. 
 
-While it was not raised as a priority in the survey there is a practical need to
-find an alternative geospatial library to the Basemap codebase. To this end the
+While it was not raised as a priority in the survey, there is a practical need to
+find an alternative geospatial library to the Basemap codebase. To this end, the
 development team will invest time to implement the Cartopy package as a mapping
 backend. This is necessitated by the phasing out of Basemap by 2020 due to lack
 of support. Initially Cartopy will be an optional backend (ie not a required
@@ -374,21 +374,21 @@ primary backend for plotting radar data on maps.
 
 There are two items which scored highly with non-users but not with users: A
 data model for radar spectra and the addition of more retrieval code from the
-literature. To grow the impact of the project we need to grow the userbase. In
-particular we need to engage with the cloud radar community as a key stakeholder
-in the ARM program. To this end we propose to add (or accept pull requests) that
+literature. To grow the impact of the project, we need to grow the userbase. In
+particular, we need to engage with the cloud radar community as a key stakeholder
+in the ARM program. To this end, we propose to add (or accept pull requests) that
 add the capability to interact with radar spectra data. This has the added
 benefit that the Scientific Python stack has a large number of signal processing
 algorithms which could potentially provide a rich ecosystem of retrievals for
 producing radar moments. 
 
-Finally Py-ART has several algorithms that were written early in its lifetime
-which need improvement. Specifically the Linear Programming based phase
+Finally, Py-ART has several algorithms that were written early in its lifetime
+which need improvement. Specifically, the Linear Programming based phase
 retrieval technique (Giangrande et al 2013) has seen several improvements (paper
 in final stages of acceptance) and
 needs further automation (eg easier application to different frequencies) and
 the attenuation correction code (Gu et al, 2011) also needs to be improved or
-replaced. And finally Py-ART would benefit from contributions dealing more with
+replaced. And finally, Py-ART would benefit from contributions dealing more with
 basic polarimetric quality control such as (Cao et al, 2016). 
 
 
@@ -404,7 +404,7 @@ multi-timestep gridding (performing advection correction while gridding) and imp
 
 2) **Volume summary statistics**: Code that reduces the dimensionality of the contents of a radar volume, be it
 from a radar or grid object. Examples would be CFADs, QVPs, VADs, echo top
-heights, Statistical Coverage Product (SCP, May and Lane, 2009) and simple
+heights, Statistical Coverage Product (SCP, May and Lane, 2009), and simple
 statistics. 
 
 3) **Object tracking**: Titan like (Dixon and Wiener, 1993) that can identify and
@@ -414,7 +414,7 @@ adaptively scanning system. It would also help in situational awareness during
 field programs (for example, directing aircraft and other assets). 
 
 4) **Cartopy backend**: Add the option of using Cartopy to RadarMapDisplay and
-GridMapDisplay
+GridMapDisplay.
 
 5) **Support for radar spectra**: A new data model and class
 pyart.core.radar_spectra that allows the storage of spectra as a function of
@@ -432,12 +432,12 @@ to have a roadmap. It is important to monitor impact in order to justify
 investment and measure the success of the roadmap. The impact of Py-ART can be measured three ways:
 
 1) **Growing the number of users and installs**: While it is difficult to get exact
-statistics several Py-ART distribution channels provide information of how wide
-spread the usage of the toolkit is. For example figure 8 shows that the main
+statistics, several Py-ART distribution channels provide information of how wide
+spread the usage of the toolkit is. For example, figure 8 shows that the main
 repository is viewed by over 100 unique visitors every week and installed 9
 times. Success would mean growing this number. Truly metricing this aspect will
 require periodic surveys. We recommend that surveys are carried out in at the
-end of the 1st, 3rd and 5th years of the roadmap. 
+end of the 1st, 3rd, and 5th years of the roadmap. 
 
 .. figure:: ./images/gitstats.png
    :scale: 140 %
@@ -449,9 +449,9 @@ end of the 1st, 3rd and 5th years of the roadmap.
    userbase. 
 
 2) **Number and success of dependant projects**: Appendix 2 shows projects that
-require Py-ART as a dependency. In order to be sustainable Py-ART needs to have
+require Py-ART as a dependency. In order to be sustainable, Py-ART needs to have
 a clearly defined scope and the needs of the community outside of this scope are better
-served with new packages. Therefore an increasing number and increasing
+served with new packages. Therefore, an increasing number and increasing
 popularity of packages that depend on Py-ART is a measure of success.  
 
 3) **Papers and presentations using Py-ART**: Publications are treated by many
@@ -464,8 +464,8 @@ and record instances of this appearing in major journals and encourage (via the
 Py-ART email list, Facebook page and Twitter feed) users to self report so we
 can build a Py-ART publications database.
 
-Over the next five years the success of this roadmap will be judged by more
-users, a richer ecosystem of applications and a large body of literature that
+Over the next five years, the success of this roadmap will be judged by more
+users, a richer ecosystem of applications, and a large body of literature that
 made use of the Python ARM Radar Toolkit. 
 
 
