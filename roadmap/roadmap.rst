@@ -186,7 +186,7 @@ A count of the responses are multiplied against their ranked rank and summed.
 An example score would be 3 responses for rank 1 would be 3 points, 4 
 responses for rank 3 means 12 points, then added together for 15 points. That sum is 
 divided by the total number of responses to that feature giving the feature a 
-weighted ranked score. Having the lowest score means that feature is the most 
+weighted ranked score. Having the highest score means that feature is the most 
 important to the users. The example would yield a rank score of 2.14
 
 
@@ -198,7 +198,7 @@ you more likely to use Py-ART." In advertising the survey we made a particular
 effort to get respondents who do not use Py-ART so we did not suffer from an
 "echo-chamber" effect. Figure 3 shows the results of this question. The most
 popular weighted rank for new feature from non-users was "More high level
-retrievals". The item relating to the mapping back-end Cartopy was
+retrievals." The item relating to the mapping back-end Cartopy was
 the least popular, unsuprisingly, since a fair assumption is many of the non-users are also
 non-Python users and would not even know what Cartopy is. There is no real
 sudden decrease anywhere along the rankings. 
@@ -213,7 +213,7 @@ sudden decrease anywhere along the rankings.
 The survey also asked about barriers that non-users faced to using Py-ART.
 Figure 4 shows the weighted responses, surprisingly, the number one barrier was "Difficulty to install" followed by
 "Most of my analysis is done by others in our group." The least popular barrier
-was "I am not a python user", which is pleasing as it is indicative of a large
+was "I am not a python user," which is pleasing as it is indicative of a large
 uptake of Python in the community. 
 
 .. figure:: ./images/non_user_barriers.png
