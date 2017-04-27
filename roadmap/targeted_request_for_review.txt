@@ -10,7 +10,9 @@ Contributions outside of the roadmap will still be accepted as long as they are 
 We surveyed the user community last year and drafted the roadmap which is available here:
 https://github.com/ARM-DOE/pyart-roadmap/blob/master/roadmap/roadmap.rst
 
-I am writing to ask you, as a user of Py-ART, to please read over the roadmap and provide the Py-ART Science Lead (Scott Collis) feedback. Please note we wish to make feedback openly available to ensure transparency. Please address the following points:
+I am writing to ask you, as a user of Py-ART, to please read over the roadmap and provide the Py-ART Science Lead (Scott Collis) feedback. Please note we wish to make feedback openly available to ensure transparency. Also, please feel free to consult with your research group as the main users may be other. Please include their names in your response. 
+
+ Please address the following points:
 
 1)  Are any of the proposed capabilities useful to you in your science? If any of the proposed items were available what impact would they make (for example save me 40 hours per year).
 
