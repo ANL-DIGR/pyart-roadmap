@@ -1,0 +1,38 @@
+﻿Dear (name),
+The Python-ARM Radar Toolkit, Py-ART, receives many Pull Requests (see below for an explanation), each requiring various degrees of effort to accept into the core package. 
+
+Developers in the ARM program are funded approximately 0.3FTE to maintain and support Py-ART (including education and outreach) and it is essential that good value is returned to the program and its stakeholders. 
+
+To this end we are currently developing a five-year roadmap for Py-ART. This will advertise the direction of the core Py-ART package to the  community thereby helping to better align contributions with ARM stakeholder needs. 
+
+Contributions outside of the roadmap will still be accepted as long as they are scientifically sound but less effort will be spent on these to bring them up to the standard (as outlined in the Contributors Guide) required to be accepted. 
+
+We surveyed the user community last year and drafted the roadmap which is available here:
+https://github.com/ARM-DOE/pyart-roadmap/blob/master/roadmap/roadmap.rst
+
+I am writing to ask you, as a user of Py-ART, to please read over the roadmap and provide the Py-ART Science Lead (Scott Collis) feedback. Please note we wish to make feedback openly available to ensure transparency. Please address the following points:
+
+1)  Are any of the proposed capabilities useful to you in your science? If any of the proposed items were available what impact would they make (for example save me 40 hours per year).
+
+2) In your view are any of the items proposed completely out of scope? Or are any of the items, in your view, of no use to the ARM stakeholder community? 
+
+3) Is there any additional functionality in Py-ART you would like to see that is not listed in the roadmap? What is the one new thing that Py-ART could do to accelerate your use of ARM data or contribute towards ARM’s mission of improving the representation of Clouds and Aerosols in models? 
+
+4) Any other feedback you may have. 
+
+As an important stakeholder, your input is highly desired, please do not hesitate to reach out to me with any questions. We are not expecting more than about a page and we desire to receive your feedback by the 5th of May. 
+
+Thanks again,
+Scott
+
+
+Addendum: Anatomy of a pull request
+Bob is a Py-ART user who has created a fork of Py-ART at github.com/bob/pyart (fictitious). Bob has made numerous changes to his fork of Py-ART but had create a new feature called killer_ap. Bob pushes this as a branch to his fork of Py-ART and submits a Pull Request against the master branch of githib.com/ARM-DOE/pyart. The development lead of Py-ART gets an email telling him/her that bob wants master of githib.com/ARM-DOE/pyart to pull from killer_ap branch of githib.com/bob /pyart. The development lead checks to make sure all unit tests pass. The development lead discusses the science merit with the Science Lead (assuming it is a science contribution, contributions can be as simple and welcomed as a typo fix) who may consult with the wider community. Assuming it is relevant and adherent to Py-ARTs contributors guide the pull request can be accepted and the killer_ap branch of githib.com/bob/pyart can be merged with the master branch of githib.com/ARM-DOE/pyart.
+
+The purpose of the roadmap is to determine how much effort should be spent by the development lead and any funded associate developers to assist bob in bringing the pull request up to the standard required for inclusion. This can be, but not limited to:
+1) Adding unit tests.
+2) Sufficient documentation so that the automated document generator can create user information for the new feature.
+3) Editing so the contribution adheres to community standards such as PEP-8
+4) General coding style, optimization and good practice. 
+
+
