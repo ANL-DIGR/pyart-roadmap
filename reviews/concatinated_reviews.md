@@ -1,4 +1,4 @@
-Reviewer 1:
+**Reviewer 1:**
 
 As  you know, I am an enthusiastic user of Py-ART, which has allowed me to leverage the information provided by polarimetric weather radars without having a formal education in radar meteorology. This is Py-ART’s greatest strength but also potential source of trouble… more on that later. To answer your points:
 1. Work to compare and improve phase processing algorithms is incredibly valuable, and would directly impact my own work. KDP is one of the most valuable quantities from polarimetric radars, but is also very sensitive to how it is estimated from total differential phase shift. This alone would improve my ability to do science with differential phase, and have confidence in the conclusions I draw from analysis of KDP. 
@@ -19,7 +19,7 @@ Volume summary statistics such as CFADs are a strange goal for Py-ART. If a rese
 Hope this is helpful! I really do value Py-ART highly and hope to contribute in the coming years!
 
 
-Reviewer 2:
+**Reviewer 2:**
 In general, the roadmap looks good to me. There are many things that are mentioned that I would also highlight, particularly the need for MultiDop, the ability to ingest gridded objects from other sources (such as Radx2Grid or WRF data output), and cell tracking. I will address these below, as well as provide some background on what we currently use the most. In my opinion, PyART needs to be a stable, well-documented, easy-to-use interface with radar data which will elicit more climatological-level studies (rather than cases), and things like the higher order retrievals (rainfall and DSD stuff) can be where the community tools are added on.
 
 Background / where I’m coming from:
@@ -36,8 +36,10 @@ With the availability of the NEXRAD data from the cloud and the ease of reading 
 It is my opinion that the higher order functionality such as rain rate calculations, DSDs, HID, QVPs, VADs, etc. should be lower priority for two reasons. 1) These are generally retrievals that are developed by various researchers, and therefore can be contributions or add-ons to PyART (via things like CSU-Radartools). There are often different methodologies available, and they are under continual development. 2) These are things that can be easily added on to an analysis. That is, after data has been Qced and gridded, one can easily calculate statistics like CFADs, echo top heights, 40 dBZ echo volumes, etc. through simple code, especially if cells have been tracked and identified. Same with things like HID and rainfall, those can easily be applied to gridded data. 
 
 In my opinion, the value of PyART is streamlining reading and processing large amounts of radar data, which includes being able to read many formats, quickly visualize them, do standard processing such as attenuation correction, dealiasing, and gridding. Multiple Doppler functionality is high value because it is much needed in the community, and for this researcher would be very, very high impact. However, for the larger community, there are very few dual-Doppler networks currently. BUT, as ARM is working toward having the X-band dual-Doppler network at SGP, this would be a high priority for being able to work with that data. 
-
-Reviewer 3
+
+
+**Reviewer 3**
+
 1)  Which of the proposed capabilities are most useful to you in your science? If any of the proposed items were available what impact would they make (for example save me 40 hours per year).
 
 Overall, I think the plan makes sense. If phase processing and attenuation correction algorithms can be improved along with polarimetric quality control, then that is great. These are things have can have significant impact on retrievals, but wouldn’t be done by a non-radar scientist unless there are straightforward functions to do this like there currently are in Py-ART. Also, there clearly needs to be a map background, so if the current one is losing support, it is logical that another one needs to be implemented.
@@ -63,6 +65,43 @@ It is also advantageous to validate some radar retrievals of geophysical variabl
 A more straightforward comparison of model output with observations involves radar retrieval of model outputted geophysical variables (DSDs, winds, processes, etc.), which does not require Py-ART ingest of model output. There are several useful retrievals not included in Py-ART, but it seems like these can be linked in with other packages listed in Appendix 2 already. If this is the case, it would be useful to clearly link to these packages on the Py-ART website main page, as this will likely increase the usage of Py-ART, as compared to RadX, which has some of these retrievals (e.g., PID, VAD, etc.) built into it already. My point here is that a non-radar scientists typically doesn’t know all of the software packages available to them, and it requires time to figure this out, so if Py-ART can become the one stop shop, so to speak, people will preferentially use it because it is straightforward and saves time.
 
 4) Any other feedback you may have.
+
+**Reviewer 4**
+
+1)  Which of the proposed capabilities are most useful to you in your
+science? 
+I would say that Py-ART is a tremendously valuable tool as it stands now.  Maintaining what it is now (or purports to be) should be the highest priority for the developers.  Thus, ensuring the retrievals work for ARM radars (Kdp processing, attenuation correction, dealiasing) at C-Band should be the highest priority.  This will enable retrieval science to move forward using Py-ART and other tools.  I see enabling the Cartopy backend as part of the long-term sustainability of the project.
+
+In terms of the most useful added value product, the cell tracking and analysis code would be most useful.  This will allow quantification of cell characteristics that will provide for direct comparison to models and the study of convective processes using dual-polarization (and potentially multi-Doppler) retrievals.
+
+Multi-Doppler capabilities are a high priority of the community, and will be useful in the CACTI project, but ARM should leverage community efforts in this regard as much as possible.  The NASA MultiDop project, which leverages Py-ART, should be assessed for utility in the ARM community to see whether it fits the needs of users.  In addition, projects such as CSU-SAMURAI could be leveraged for atmospheric mesoscale analysis.  LROSE (NCAR/CSU) is also funded by NSF to improve retrievals.  Wradlib continues to advance.  Perhaps the Py-ART team’s limited time would be best spent developing tutorials to use these tools for ARM data (using Py-ART’s core functionality) rather than reinventing existing tools.  The roadmap should ultimately include efforts of other researchers.  Perhaps a breakout at an ASR meeting could address some of these broader challenges.
+
+If any of the proposed items were available what impact would
+they make (for example save me 40 hours per year).
+Keeping the basic capabilities of Py-ART running saves me and my research group 40 hours of work per year.  In addition, it keeps the tools that relay on Py-ART working, which I use for many applications in my DOE and non-DOE research.  This also saves a week of my time in training students, and countless hours of their time writing codes from scratch or using heritage code.
+
+2) In your view are any of the items proposed are poorly targeted at the
+ARM stakeholder community? Or which items do you see as least useful to
+you or the ARM stakeholder community? Given we are resource constrained
+we need to hear what is NOT useful so we target high impact items.
+
+I believe that the scope of the radar spectra support should initially be for simply modifying the radar model to handle the storage of spectra.  People like Ed Luke and Christopher Williams should be brought in to develop the retrievals, and the developers could simply implement them into the existing code base.
+
+3) Is there any additional functionality in Py-ART you would like to
+see that is not listed in the roadmap? What is the one new thing that
+Py-ART could do to accelerate your use of ARM data or contribute towards
+ARM’s mission of improving the representation of Clouds and Aerosols in
+models?
+
+Ensure that openDAP, S3, and THREDDS capabilities continue to work.  Include convenience functions that allow automated queries of NEXRAD S3 and THREDDS archives.  
+
+Think about how to make open, reproducible science part of the Py-ART analysis pathway, with examples.
+
+More data recipes using ARM data from fixed and remote sites?
+
+4) Any other feedback you may have.
+
+As always, Py-ART continues to lead the way in revolutionizing open radar science.
 
 
 
