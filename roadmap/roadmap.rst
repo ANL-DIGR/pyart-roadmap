@@ -445,6 +445,12 @@ will prioritize helping a pull request submitted adding this capability.** If
 resources are available ARM support may be made available to develop this
 ourselves. 
 
+The addition of an ingest of WRF data into Py-ART's grid model was not in the
+stakeholder poll but was mentioned by multiple reviewers. This would be a nice
+feature add for comparision between radar and model produced data. However it
+sits right on the boundary of Py-ART's scope. Therefore **pull requests that are
+nicely documented and require minimal developer time will be accepted.** 
+
 Improving and expanding QC capabilities (dealiasing etc..) was not well defined
 in the poll. However on review of the draft roadmap several users stated better
 QC routines would *save significant time* in the reaching of scientific
@@ -514,9 +520,13 @@ the following features:
    display systems. An animated viewer that works in a moving frame of
    reference.
 
-6) **Summary statustics:** Accept well documented, tested (ie very little effort
+6) **Summary statistics:** Accept well documented, tested (ie very little effort
    from ARM) code that summarizes radar volumes and gridded data (eg  Statistical Coverage
    Product, May and Lane, 2009).
+
+7) **WRF ingest:**  Accept well documented, tested (ie very little effort
+   from ARM) code that ingests WRF produced NetCDF into Py-ART's grid data
+   model. 
 
 
 6 Measuring Impact
