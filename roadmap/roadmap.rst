@@ -363,7 +363,8 @@ differers from the version that went out for review in the following ways:
 - Note the support of Cartopy as a back end is a priority (2nd behind QC).
 - Restrict development on handling radar spectra to the development of a data
   model.
-- Added items regarding outreach, teaching and documentation.
+- Added items regarding outreach, teaching and documentation. Specific focus on
+  developing examples aimed at the cloud radar community. 
 
 
 3 Proposed Governance Structure
@@ -464,10 +465,14 @@ review. Furthermore discussions with maintainers of other major packages yield
 the same information: *Many users would prefer to see more examples, and use
 cases of existing features over new features*. Therefore **pull requests with
 documentation, examples (cookbooks) recieve priority support from ARM
-developers.** Furthermore the Py-ART development team will continue to engage
+developers. A specific focus will be on engaging the cloud radar community.** 
+Furthermore the Py-ART development team will continue to engage
 the community by making training available at DoE and societal (AMS, AGU, ERAD,
 EGU) meetings. Work will also be undertaken to construct a new repository
-located on ARM's GitHub page [4]_ containing coursework and coookbooks. 
+located on ARM's GitHub page [4]_ containing coursework and cookbooks. The
+Py-ART team will engage with the cloud radar community to better understand
+their workflows and replicate in Py-ART (with appropriate acknowledgement) as
+examples. 
 
 .. [4] https://github.com/ARM-DOE/
 
@@ -488,7 +493,9 @@ the following features:
 2) **Improved documentation, examples and training:** Better in-code
    documentation. Create a new repository with cookbooks that have "shovel
    ready" examples users can cut and paste. Continue to provide training at
-   meetings and, where appropriate and cost effective, at institutions.
+   meetings and, where appropriate and cost effective, at institutions. A
+   specific focus will be placed on engaging and increasing uptake amongst
+   users of cloud radars. 
 
 3) **Cartopy backend**: Extend the cartopy backend to the allow display of grid
    data. Improve radial data display.

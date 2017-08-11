@@ -142,7 +142,7 @@ endobj
 << /Border [ 0 0 0 ] /Contents () /Dest [ 60 0 R /XYZ 68.69291 714.6772 0 ] /Rect [ 478.4783 504.0236 482.9263 516.0236 ] /Subtype /Link /Type /Annot >>
 endobj
 32 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 60 0 R /XYZ 68.69291 702.6772 0 ] /Rect [ 202.4429 168.0236 206.8909 180.0236 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 60 0 R /XYZ 68.69291 702.6772 0 ] /Rect [ 528.6907 168.0236 531.9569 180.0236 ] /Subtype /Link /Type /Annot >>
 endobj
 33 0 obj
 << /Annots [ 30 0 R 31 0 R 32 0 R ] /Contents 94 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 84 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
@@ -232,7 +232,7 @@ endobj
 << /A << /S /URI /Type /Action /URI (https://github.com/openradar/TINT) >> /Border [ 0 0 0 ] /Rect [ 153.7323 700.6772 306.0223 712.6772 ] /Subtype /Link /Type /Annot >>
 endobj
 58 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 33 0 R /XYZ 202.4429 182.0236 0 ] /Rect [ 68.69291 688.6772 74.25291 700.6772 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 33 0 R /XYZ 509.7829 182.0236 0 ] /Rect [ 68.69291 688.6772 74.25291 700.6772 ] /Subtype /Link /Type /Annot >>
 endobj
 59 0 obj
 << /A << /S /URI /Type /Action /URI (https://github.com/ARM-DOE/) >> /Border [ 0 0 0 ] /Rect [ 153.7323 689.4272 285.4423 701.4272 ] /Subtype /Link /Type /Annot >>
@@ -245,7 +245,7 @@ endobj
 << /Outlines 63 0 R /PageLabels 101 0 R /PageMode /UseNone /Pages 84 0 R /Type /Catalog >>
 endobj
 62 0 obj
-<< /Author () /CreationDate (D:20170811102959+06'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20170811102959+06'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+<< /Author () /CreationDate (D:20170811104109+06'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20170811104109+06'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (Python ARM Radar Toolkit \(Py-ART\) Roadmap) /Trapped /False >>
 endobj
 63 0 obj
@@ -280,26 +280,26 @@ endobj
 << /Dest [ 29 0 R /XYZ 62.69291 621.0236 0 ] /Parent 65 0 R /Prev 71 0 R /Title (2.2.3 How the roadmap changed as a result of feedback) >>
 endobj
 73 0 obj
-<< /Dest [ 29 0 R /XYZ 62.69291 435.0236 0 ] /Next 74 0 R /Parent 63 0 R /Prev 65 0 R /Title (3 Proposed Governance Structure) >>
+<< /Dest [ 29 0 R /XYZ 62.69291 423.0236 0 ] /Next 74 0 R /Parent 63 0 R /Prev 65 0 R /Title (3 Proposed Governance Structure) >>
 endobj
 74 0 obj
 << /Dest [ 33 0 R /XYZ 62.69291 765.0236 0 ] /Next 75 0 R /Parent 63 0 R /Prev 73 0 R /Title (4 Overarching Goals for Next Five Years) >>
 endobj
 75 0 obj
-<< /Count 3 /Dest [ 33 0 R /XYZ 62.69291 156.0236 0 ] /First 76 0 R /Last 78 0 R /Next 79 0 R /Parent 63 0 R 
+<< /Count 3 /Dest [ 34 0 R /XYZ 62.69291 765.0236 0 ] /First 76 0 R /Last 78 0 R /Next 79 0 R /Parent 63 0 R 
   /Prev 74 0 R /Title (5 Priority features summary) >>
 endobj
 76 0 obj
-<< /Dest [ 34 0 R /XYZ 62.69291 765.0236 0 ] /Next 77 0 R /Parent 75 0 R /Title (5.1 Highest priority) >>
+<< /Dest [ 34 0 R /XYZ 62.69291 702.0236 0 ] /Next 77 0 R /Parent 75 0 R /Title (5.1 Highest priority) >>
 endobj
 77 0 obj
-<< /Dest [ 34 0 R /XYZ 62.69291 615.0236 0 ] /Next 78 0 R /Parent 75 0 R /Prev 76 0 R /Title (5.2 Moderate priority) >>
+<< /Dest [ 34 0 R /XYZ 62.69291 540.0236 0 ] /Next 78 0 R /Parent 75 0 R /Prev 76 0 R /Title (5.2 Moderate priority) >>
 endobj
 78 0 obj
-<< /Dest [ 34 0 R /XYZ 62.69291 549.0236 0 ] /Parent 75 0 R /Prev 77 0 R /Title (5.3 Lower priority \(would be nice to have\)) >>
+<< /Dest [ 34 0 R /XYZ 62.69291 474.0236 0 ] /Parent 75 0 R /Prev 77 0 R /Title (5.3 Lower priority \(would be nice to have\)) >>
 endobj
 79 0 obj
-<< /Dest [ 34 0 R /XYZ 62.69291 441.0236 0 ] /Next 80 0 R /Parent 63 0 R /Prev 75 0 R /Title (6 Measuring Impact) >>
+<< /Dest [ 34 0 R /XYZ 62.69291 366.0236 0 ] /Next 80 0 R /Parent 63 0 R /Prev 75 0 R /Title (6 Measuring Impact) >>
 endobj
 80 0 obj
 << /Dest [ 38 0 R /XYZ 62.69291 288.7676 0 ] /Next 81 0 R /Parent 63 0 R /Prev 79 0 R /Title (References) >>
@@ -1416,7 +1416,7 @@ Q
 endstream
 endobj
 93 0 obj
-<< /Length 7769 >>
+<< /Length 7868 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1655,11 +1655,11 @@ q
 1 0 0 1 62.69291 459.0236 cm
 Q
 q
-1 0 0 1 62.69291 447.0236 cm
+1 0 0 1 62.69291 435.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 6 -3 cm
+1 0 0 1 6 9 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
@@ -1669,48 +1669,48 @@ q
 1 0 0 1 23 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Added items regarding outreach, teaching and documentation.) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 4.111976 Tw (Added items regarding outreach, teaching and documentation. Specific focus on developing) Tj T* 0 Tw (examples aimed at the cloud radar community.) Tj T* ET
 Q
 Q
 q
 Q
 Q
 q
-1 0 0 1 62.69291 447.0236 cm
+1 0 0 1 62.69291 435.0236 cm
 Q
 q
-1 0 0 1 62.69291 414.0236 cm
+1 0 0 1 62.69291 402.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (3 Proposed Governance Structure) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 324.0236 cm
+1 0 0 1 62.69291 312.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL .877209 Tw (The motivation of this roadmap is to ensure that the effort funded by the ARM program is responsive to) Tj T* 0 Tw 1.122209 Tw (the needs of the stakeholders of the program. A large task of the lead developer has been in assisting) Tj T* 0 Tw .016235 Tw (contributors in modifying pull requests \(contributions\) so that they can be accepted into Py-ART. While it is) Tj T* 0 Tw 3.191412 Tw (important to have a consistent standard across the codebase, many of the tasks associated with) Tj T* 0 Tw 1.645318 Tw (accepting pull requests can be delegated to others in the community. Currently, there are two ad-hoc) Tj T* 0 Tw 2.040697 Tw (defined roles in the Py-ART project: Science Lead and Lead Developer. This roadmap proposes the) Tj T* 0 Tw (introduction of a third role: Associate Developer. The roles will be:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 294.0236 cm
+1 0 0 1 62.69291 282.0236 cm
 q
 BT 1 0 0 1 0 14 Tm 1.939982 Tw 12 TL /F2 10 Tf 0 0 0 rg (Science Lead) Tj /F1 10 Tf (: Provides high level leadership for the project, organizes outreach and education, and) Tj T* 0 Tw (coordinates contributor and stakeholder input to form a long term vision for the project.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 252.0236 cm
+1 0 0 1 62.69291 240.0236 cm
 q
 BT 1 0 0 1 0 26 Tm .609984 Tw 12 TL /F2 10 Tf 0 0 0 rg (Lead Developer) Tj /F1 10 Tf (: Responsible for overall architecture of the project. Final arbiter in what pull requests to) Tj T* 0 Tw 1.73816 Tw (accept. Develops the required style guidelines and coordinates the associate developers. Coordinates) Tj T* 0 Tw (contributions from associated developers to a Contributors Guide \(and contributes as well\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 222.0236 cm
+1 0 0 1 62.69291 210.0236 cm
 q
 BT 1 0 0 1 0 14 Tm 2.797126 Tw 12 TL /F2 10 Tf 0 0 0 rg (Associate Developers) Tj /F1 10 Tf (: Responsible, as time allows, for doing an initial check of pull requests for) Tj T* 0 Tw (suitability and adherence to the Contributors Guide. Contributes to the Contributors Guide.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 168.0236 cm
+1 0 0 1 62.69291 156.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .35332 Tw (In seeking Associate Developers, it will be important to seek diversity to ensure there is no single point of) Tj T* 0 Tw .328735 Tw (failure in providing support to Py-ART. Ideally, the project would have 2-3 Associate Developers. It will be) Tj T* 0 Tw 2.719984 Tw (expected that the associate developers will be recognized as key members of the project and are) Tj T* 0 Tw (acknowledged accordingly in future publications and presentations.) Tj T* ET
@@ -1720,7 +1720,7 @@ Q
 endstream
 endobj
 94 0 obj
-<< /Length 7547 >>
+<< /Length 7450 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1844,45 +1844,45 @@ q
 1 0 0 1 62.69291 270.0236 cm
 Q
 q
-1 0 0 1 62.69291 168.0236 cm
+1 0 0 1 62.69291 132.0236 cm
 q
-BT 1 0 0 1 0 86 Tm 1.829984 Tw 12 TL /F1 10 Tf 0 0 0 rg (Finally, in an oversight, the initial polling did not include a question on documentation, examples and) Tj T* 0 Tw .790751 Tw (outreach. However this was strongly pointed out on review. Furthermore discussions with maintainers of) Tj T* 0 Tw 1.054651 Tw (other major packages yield the same information: ) Tj /F3 10 Tf (Many users would prefer to see more examples, and) Tj T* 0 Tw 3.496647 Tw (use cases of existing features over new features) Tj /F1 10 Tf (. Therefore ) Tj /F2 10 Tf (pull requests with documentation,) Tj T* 0 Tw 2.643976 Tw (examples \(cookbooks\) recieve priority support from ARM developers. ) Tj /F1 10 Tf (Furthermore the Py-ART) Tj T* 0 Tw 2.597126 Tw (development team will continue to engage the community by making training available at DoE and) Tj T* 0 Tw .649318 Tw (societal \(AMS, AGU, ERAD, EGU\) meetings. Work will also be undertaken to construct a new repository) Tj T* 0 Tw (located on ARM's GitHub page ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (4 ) Tj /F1 10 Tf 0 0 0 rg 0 Ts (containing coursework and coookbooks.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 135.0236 cm
-q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (5 Priority features summary) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 105.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.285366 Tw (The Development team will prioritize the acceptance of Pull requests and perform targeted strategic) Tj T* 0 Tw (development that adds the following features:) Tj T* ET
+BT 1 0 0 1 0 122 Tm 1.829984 Tw 12 TL /F1 10 Tf 0 0 0 rg (Finally, in an oversight, the initial polling did not include a question on documentation, examples and) Tj T* 0 Tw .790751 Tw (outreach. However this was strongly pointed out on review. Furthermore discussions with maintainers of) Tj T* 0 Tw 1.054651 Tw (other major packages yield the same information: ) Tj /F3 10 Tf (Many users would prefer to see more examples, and) Tj T* 0 Tw 3.496647 Tw (use cases of existing features over new features) Tj /F1 10 Tf (. Therefore ) Tj /F2 10 Tf (pull requests with documentation,) Tj T* 0 Tw .836136 Tw (examples \(cookbooks\) recieve priority support from ARM developers. A specific focus will be on) Tj T* 0 Tw 2.155814 Tw (engaging the cloud radar community. ) Tj /F1 10 Tf (Furthermore the Py-ART development team will continue to) Tj T* 0 Tw 2.440697 Tw (engage the community by making training available at DoE and societal \(AMS, AGU, ERAD, EGU\)) Tj T* 0 Tw 1.181735 Tw (meetings. Work will also be undertaken to construct a new repository located on ARM's GitHub page ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (4) Tj T* 0 Tw .693555 Tw /F1 10 Tf 0 0 0 rg 0 Ts (containing coursework and cookbooks. The Py-ART team will engage with the cloud radar community to) Tj T* 0 Tw 3.359069 Tw (better understand their workflows and replicate in Py-ART \(with appropriate acknowledgement\) as) Tj T* 0 Tw (examples.) Tj T* ET
 Q
 Q
  
 endstream
 endobj
 95 0 obj
-<< /Length 5271 >>
+<< /Length 5792 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 747.0236 cm
+1 0 0 1 62.69291 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (5 Priority features summary) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 714.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.285366 Tw (The Development team will prioritize the acceptance of Pull requests and perform targeted strategic) Tj T* 0 Tw (development that adds the following features:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 684.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (5.1 Highest priority) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 735.0236 cm
+1 0 0 1 62.69291 672.0236 cm
 Q
 q
-1 0 0 1 62.69291 735.0236 cm
+1 0 0 1 62.69291 672.0236 cm
 Q
 q
-1 0 0 1 62.69291 699.0236 cm
+1 0 0 1 62.69291 636.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1902,14 +1902,14 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 693.0236 cm
+1 0 0 1 62.69291 630.0236 cm
 Q
 q
-1 0 0 1 62.69291 657.0236 cm
+1 0 0 1 62.69291 582.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 6 21 cm
+1 0 0 1 6 33 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
@@ -1918,17 +1918,17 @@ Q
 q
 1 0 0 1 23 -3 cm
 q
-BT 1 0 0 1 0 26 Tm 1.451976 Tw 12 TL /F2 10 Tf 0 0 0 rg (Improved documentation, examples and training: ) Tj /F1 10 Tf (Better in-code documentation. Create a new) Tj T* 0 Tw .724269 Tw (repository with cookbooks that have "shovel ready" examples users can cut and paste. Continue to) Tj T* 0 Tw (provide training at meetings and, where appropriate and cost effective, at institutions.) Tj T* ET
+BT 1 0 0 1 0 38 Tm 1.451976 Tw 12 TL /F2 10 Tf 0 0 0 rg (Improved documentation, examples and training: ) Tj /F1 10 Tf (Better in-code documentation. Create a new) Tj T* 0 Tw .724269 Tw (repository with cookbooks that have "shovel ready" examples users can cut and paste. Continue to) Tj T* 0 Tw 1.967674 Tw (provide training at meetings and, where appropriate and cost effective, at institutions. A specific) Tj T* 0 Tw (focus will be placed on engaging and increasing uptake amongst users of cloud radars.) Tj T* ET
 Q
 Q
 q
 Q
 Q
 q
-1 0 0 1 62.69291 651.0236 cm
+1 0 0 1 62.69291 576.0236 cm
 Q
 q
-1 0 0 1 62.69291 627.0236 cm
+1 0 0 1 62.69291 552.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1948,22 +1948,22 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 627.0236 cm
+1 0 0 1 62.69291 552.0236 cm
 Q
 q
-1 0 0 1 62.69291 597.0236 cm
+1 0 0 1 62.69291 522.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (5.2 Moderate priority) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 585.0236 cm
+1 0 0 1 62.69291 510.0236 cm
 Q
 q
-1 0 0 1 62.69291 585.0236 cm
+1 0 0 1 62.69291 510.0236 cm
 Q
 q
-1 0 0 1 62.69291 561.0236 cm
+1 0 0 1 62.69291 486.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1983,22 +1983,22 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 561.0236 cm
+1 0 0 1 62.69291 486.0236 cm
 Q
 q
-1 0 0 1 62.69291 531.0236 cm
+1 0 0 1 62.69291 456.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (5.3 Lower priority \(would be nice to have\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 519.0236 cm
+1 0 0 1 62.69291 444.0236 cm
 Q
 q
-1 0 0 1 62.69291 519.0236 cm
+1 0 0 1 62.69291 444.0236 cm
 Q
 q
-1 0 0 1 62.69291 483.0236 cm
+1 0 0 1 62.69291 408.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2018,10 +2018,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 477.0236 cm
+1 0 0 1 62.69291 402.0236 cm
 Q
 q
-1 0 0 1 62.69291 453.0236 cm
+1 0 0 1 62.69291 378.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2041,29 +2041,29 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 453.0236 cm
+1 0 0 1 62.69291 378.0236 cm
 Q
 q
-1 0 0 1 62.69291 420.0236 cm
+1 0 0 1 62.69291 345.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (6 Measuring Impact) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 378.0236 cm
+1 0 0 1 62.69291 303.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.247209 Tw (As a Department of Energy Supported project it is important but not sufficient to have a roadmap. It is) Tj T* 0 Tw .744985 Tw (important to monitor impact in order to justify investment and measure the success of the roadmap. The) Tj T* 0 Tw (impact of Py-ART can be measured three ways:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 312.0236 cm
+1 0 0 1 62.69291 237.0236 cm
 q
 BT 1 0 0 1 0 50 Tm .443516 Tw 12 TL /F1 10 Tf 0 0 0 rg (1\) ) Tj /F2 10 Tf (Growing the number of users and installs) Tj /F1 10 Tf (: While it is difficult to get exact statistics, several Py-ART) Tj T* 0 Tw 1.645984 Tw (distribution channels provide information of how wide spread the usage of the toolkit is. For example,) Tj T* 0 Tw .662209 Tw (figure 8 shows that the main repository is viewed by over 100 unique visitors every week and installed 9) Tj T* 0 Tw .220697 Tw (times. Success would mean growing this number. Truly metricing this aspect will require periodic surveys.) Tj T* 0 Tw (We recommend that surveys are carried out in at the end of the 1st, 3rd, and 5th years of the roadmap.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 306.0236 cm
+1 0 0 1 62.69291 231.0236 cm
 Q
  
 endstream
@@ -2826,35 +2826,35 @@ xref
 0000705623 00000 n
 0000708626 00000 n
 0000714682 00000 n
-0000722508 00000 n
-0000730112 00000 n
-0000735440 00000 n
-0000739784 00000 n
-0000746006 00000 n
-0000751911 00000 n
-0000758318 00000 n
-0000759810 00000 n
-0000760024 00000 n
-0000760062 00000 n
-0000760100 00000 n
-0000760138 00000 n
-0000760176 00000 n
-0000760214 00000 n
-0000760252 00000 n
-0000760290 00000 n
-0000760328 00000 n
-0000760366 00000 n
-0000760405 00000 n
-0000760444 00000 n
-0000760483 00000 n
-0000760522 00000 n
-0000760561 00000 n
-0000760600 00000 n
+0000722607 00000 n
+0000730114 00000 n
+0000735963 00000 n
+0000740307 00000 n
+0000746529 00000 n
+0000752434 00000 n
+0000758841 00000 n
+0000760333 00000 n
+0000760547 00000 n
+0000760585 00000 n
+0000760623 00000 n
+0000760661 00000 n
+0000760699 00000 n
+0000760737 00000 n
+0000760775 00000 n
+0000760813 00000 n
+0000760851 00000 n
+0000760889 00000 n
+0000760928 00000 n
+0000760967 00000 n
+0000761006 00000 n
+0000761045 00000 n
+0000761084 00000 n
+0000761123 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
- [(\275\352\340\243\027\267\271\301\271\333\301\365\214\370\215\225) (\275\352\340\243\027\267\271\301\271\333\301\365\214\370\215\225)]
+ [(\354\034\325"i\211\225U\344\257H\(\251\263\324\311) (\354\034\325"i\211\225U\344\257H\(\251\263\324\311)]
  /Info 62 0 R /Root 61 0 R /Size 118 >>
 startxref
-760639
+761162
 %%EOF
