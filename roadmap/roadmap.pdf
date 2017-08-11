@@ -142,7 +142,7 @@ endobj
 << /Border [ 0 0 0 ] /Contents () /Dest [ 60 0 R /XYZ 68.69291 714.6772 0 ] /Rect [ 478.4783 504.0236 482.9263 516.0236 ] /Subtype /Link /Type /Annot >>
 endobj
 32 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 60 0 R /XYZ 68.69291 702.6772 0 ] /Rect [ 528.6907 168.0236 531.9569 180.0236 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 60 0 R /XYZ 68.69291 702.6772 0 ] /Rect [ 528.6907 114.0236 531.9569 126.0236 ] /Subtype /Link /Type /Annot >>
 endobj
 33 0 obj
 << /Annots [ 30 0 R 31 0 R 32 0 R ] /Contents 94 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 84 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
@@ -232,7 +232,7 @@ endobj
 << /A << /S /URI /Type /Action /URI (https://github.com/openradar/TINT) >> /Border [ 0 0 0 ] /Rect [ 153.7323 700.6772 306.0223 712.6772 ] /Subtype /Link /Type /Annot >>
 endobj
 58 0 obj
-<< /Border [ 0 0 0 ] /Contents () /Dest [ 33 0 R /XYZ 509.7829 182.0236 0 ] /Rect [ 68.69291 688.6772 74.25291 700.6772 ] /Subtype /Link /Type /Annot >>
+<< /Border [ 0 0 0 ] /Contents () /Dest [ 33 0 R /XYZ 509.7829 128.0236 0 ] /Rect [ 68.69291 688.6772 74.25291 700.6772 ] /Subtype /Link /Type /Annot >>
 endobj
 59 0 obj
 << /A << /S /URI /Type /Action /URI (https://github.com/ARM-DOE/) >> /Border [ 0 0 0 ] /Rect [ 153.7323 689.4272 285.4423 701.4272 ] /Subtype /Link /Type /Annot >>
@@ -245,7 +245,7 @@ endobj
 << /Outlines 63 0 R /PageLabels 101 0 R /PageMode /UseNone /Pages 84 0 R /Type /Catalog >>
 endobj
 62 0 obj
-<< /Author () /CreationDate (D:20170811104109+06'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20170811104109+06'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+<< /Author () /CreationDate (D:20170811105136+06'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20170811105136+06'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (Python ARM Radar Toolkit \(Py-ART\) Roadmap) /Trapped /False >>
 endobj
 63 0 obj
@@ -299,7 +299,7 @@ endobj
 << /Dest [ 34 0 R /XYZ 62.69291 474.0236 0 ] /Parent 75 0 R /Prev 77 0 R /Title (5.3 Lower priority \(would be nice to have\)) >>
 endobj
 79 0 obj
-<< /Dest [ 34 0 R /XYZ 62.69291 366.0236 0 ] /Next 80 0 R /Parent 63 0 R /Prev 75 0 R /Title (6 Measuring Impact) >>
+<< /Dest [ 34 0 R /XYZ 62.69291 336.0236 0 ] /Next 80 0 R /Parent 63 0 R /Prev 75 0 R /Title (6 Measuring Impact) >>
 endobj
 80 0 obj
 << /Dest [ 38 0 R /XYZ 62.69291 288.7676 0 ] /Next 81 0 R /Parent 63 0 R /Prev 79 0 R /Title (References) >>
@@ -1720,7 +1720,7 @@ Q
 endstream
 endobj
 94 0 obj
-<< /Length 7450 >>
+<< /Length 8021 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1760,19 +1760,25 @@ BT 1 0 0 1 0 38 Tm 2.199983 Tw 12 TL /F1 10 Tf 0 0 0 rg (The addition of a data 
 Q
 Q
 q
-1 0 0 1 62.69291 348.0236 cm
+1 0 0 1 62.69291 360.0236 cm
+q
+BT 1 0 0 1 0 38 Tm .73104 Tw 12 TL /F1 10 Tf 0 0 0 rg (The addition of an ingest of WRF data into Py-ART's grid model was not in the stakeholder poll but was) Tj T* 0 Tw 1.313318 Tw (mentioned by multiple reviewers. This would be a nice feature add for comparision between radar and) Tj T* 0 Tw .593318 Tw (model produced data. However it sits right on the boundary of Py-ART's scope. Therefore ) Tj /F2 10 Tf (pull requests) Tj T* 0 Tw (that are nicely documented and require minimal developer time will be accepted.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 294.0236 cm
 q
 BT 1 0 0 1 0 50 Tm .942651 Tw 12 TL /F1 10 Tf 0 0 0 rg (Improving and expanding QC capabilities \(dealiasing etc..\) was not well defined in the poll. However on) Tj T* 0 Tw 1.404985 Tw (review of the draft roadmap several users stated better QC routines would ) Tj /F3 10 Tf (save significant time ) Tj /F1 10 Tf (in the) Tj T* 0 Tw 2.117674 Tw (reaching of scientific conclusions from radar data. Therefore ) Tj /F2 10 Tf (pull requests improving or adding to) Tj T* 0 Tw .121318 Tw (Py-ART's suite of QC routines will recieve the highest priority by ARM developers. ) Tj /F1 10 Tf (This includes but) Tj T* 0 Tw (is not limited to:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 342.0236 cm
+1 0 0 1 62.69291 288.0236 cm
 Q
 q
-1 0 0 1 62.69291 342.0236 cm
+1 0 0 1 62.69291 288.0236 cm
 Q
 q
-1 0 0 1 62.69291 318.0236 cm
+1 0 0 1 62.69291 264.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1793,10 +1799,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 312.0236 cm
+1 0 0 1 62.69291 258.0236 cm
 Q
 q
-1 0 0 1 62.69291 300.0236 cm
+1 0 0 1 62.69291 246.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1817,10 +1823,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 294.0236 cm
+1 0 0 1 62.69291 240.0236 cm
 Q
 q
-1 0 0 1 62.69291 270.0236 cm
+1 0 0 1 62.69291 216.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1841,10 +1847,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 270.0236 cm
+1 0 0 1 62.69291 216.0236 cm
 Q
 q
-1 0 0 1 62.69291 132.0236 cm
+1 0 0 1 62.69291 78.02362 cm
 q
 BT 1 0 0 1 0 122 Tm 1.829984 Tw 12 TL /F1 10 Tf 0 0 0 rg (Finally, in an oversight, the initial polling did not include a question on documentation, examples and) Tj T* 0 Tw .790751 Tw (outreach. However this was strongly pointed out on review. Furthermore discussions with maintainers of) Tj T* 0 Tw 1.054651 Tw (other major packages yield the same information: ) Tj /F3 10 Tf (Many users would prefer to see more examples, and) Tj T* 0 Tw 3.496647 Tw (use cases of existing features over new features) Tj /F1 10 Tf (. Therefore ) Tj /F2 10 Tf (pull requests with documentation,) Tj T* 0 Tw .836136 Tw (examples \(cookbooks\) recieve priority support from ARM developers. A specific focus will be on) Tj T* 0 Tw 2.155814 Tw (engaging the cloud radar community. ) Tj /F1 10 Tf (Furthermore the Py-ART development team will continue to) Tj T* 0 Tw 2.440697 Tw (engage the community by making training available at DoE and societal \(AMS, AGU, ERAD, EGU\)) Tj T* 0 Tw 1.181735 Tw (meetings. Work will also be undertaken to construct a new repository located on ARM's GitHub page ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (4) Tj T* 0 Tw .693555 Tw /F1 10 Tf 0 0 0 rg 0 Ts (containing coursework and cookbooks. The Py-ART team will engage with the cloud radar community to) Tj T* 0 Tw 3.359069 Tw (better understand their workflows and replicate in Py-ART \(with appropriate acknowledgement\) as) Tj T* 0 Tw (examples.) Tj T* ET
 Q
@@ -1853,7 +1859,7 @@ Q
 endstream
 endobj
 95 0 obj
-<< /Length 5792 >>
+<< /Length 6285 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -2034,36 +2040,59 @@ Q
 q
 1 0 0 1 23 -3 cm
 q
-BT 1 0 0 1 0 14 Tm 2.14229 Tw 12 TL /F2 10 Tf 0 0 0 rg (Summary statustics: ) Tj /F1 10 Tf (Accept well documented, tested \(ie very little effort from ARM\) code that) Tj T* 0 Tw (summarizes radar volumes and gridded data \(eg Statistical Coverage Product, May and Lane, 2009\).) Tj T* ET
+BT 1 0 0 1 0 14 Tm 2.398443 Tw 12 TL /F2 10 Tf 0 0 0 rg (Summary statistics: ) Tj /F1 10 Tf (Accept well documented, tested \(ie very little effort from ARM\) code that) Tj T* 0 Tw (summarizes radar volumes and gridded data \(eg Statistical Coverage Product, May and Lane, 2009\).) Tj T* ET
 Q
 Q
 q
 Q
 Q
 q
-1 0 0 1 62.69291 378.0236 cm
+1 0 0 1 62.69291 372.0236 cm
 Q
 q
-1 0 0 1 62.69291 345.0236 cm
+1 0 0 1 62.69291 348.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (7.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .524651 Tw 12 TL /F2 10 Tf 0 0 0 rg (WRF ingest: ) Tj /F1 10 Tf (Accept well documented, tested \(ie very little effort from ARM\) code that ingests WRF) Tj T* 0 Tw (produced NetCDF into Py-ART's grid data model.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 348.0236 cm
+Q
+q
+1 0 0 1 62.69291 315.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (6 Measuring Impact) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 303.0236 cm
+1 0 0 1 62.69291 273.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.247209 Tw (As a Department of Energy Supported project it is important but not sufficient to have a roadmap. It is) Tj T* 0 Tw .744985 Tw (important to monitor impact in order to justify investment and measure the success of the roadmap. The) Tj T* 0 Tw (impact of Py-ART can be measured three ways:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 237.0236 cm
+1 0 0 1 62.69291 207.0236 cm
 q
 BT 1 0 0 1 0 50 Tm .443516 Tw 12 TL /F1 10 Tf 0 0 0 rg (1\) ) Tj /F2 10 Tf (Growing the number of users and installs) Tj /F1 10 Tf (: While it is difficult to get exact statistics, several Py-ART) Tj T* 0 Tw 1.645984 Tw (distribution channels provide information of how wide spread the usage of the toolkit is. For example,) Tj T* 0 Tw .662209 Tw (figure 8 shows that the main repository is viewed by over 100 unique visitors every week and installed 9) Tj T* 0 Tw .220697 Tw (times. Success would mean growing this number. Truly metricing this aspect will require periodic surveys.) Tj T* 0 Tw (We recommend that surveys are carried out in at the end of the 1st, 3rd, and 5th years of the roadmap.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 231.0236 cm
+1 0 0 1 62.69291 201.0236 cm
 Q
  
 endstream
@@ -2827,34 +2856,34 @@ xref
 0000708626 00000 n
 0000714682 00000 n
 0000722607 00000 n
-0000730114 00000 n
-0000735963 00000 n
-0000740307 00000 n
-0000746529 00000 n
-0000752434 00000 n
-0000758841 00000 n
-0000760333 00000 n
-0000760547 00000 n
-0000760585 00000 n
-0000760623 00000 n
-0000760661 00000 n
-0000760699 00000 n
-0000760737 00000 n
-0000760775 00000 n
-0000760813 00000 n
-0000760851 00000 n
-0000760889 00000 n
-0000760928 00000 n
-0000760967 00000 n
-0000761006 00000 n
-0000761045 00000 n
-0000761084 00000 n
-0000761123 00000 n
+0000730685 00000 n
+0000737027 00000 n
+0000741371 00000 n
+0000747593 00000 n
+0000753498 00000 n
+0000759905 00000 n
+0000761397 00000 n
+0000761611 00000 n
+0000761649 00000 n
+0000761687 00000 n
+0000761725 00000 n
+0000761763 00000 n
+0000761801 00000 n
+0000761839 00000 n
+0000761877 00000 n
+0000761915 00000 n
+0000761953 00000 n
+0000761992 00000 n
+0000762031 00000 n
+0000762070 00000 n
+0000762109 00000 n
+0000762148 00000 n
+0000762187 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
- [(\354\034\325"i\211\225U\344\257H\(\251\263\324\311) (\354\034\325"i\211\225U\344\257H\(\251\263\324\311)]
+ [(\035\374\333,\032\362\010\237X\240\264\020a\014\245\022) (\035\374\333,\032\362\010\237X\240\264\020a\014\245\022)]
  /Info 62 0 R /Root 61 0 R /Size 118 >>
 startxref
-761162
+762226
 %%EOF
