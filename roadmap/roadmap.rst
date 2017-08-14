@@ -704,3 +704,15 @@ Appendix 3: Papers in press that used Py-ART
 
 [10] Marcus van Lier-Walqui, Ann M. Fridlind, Andrew S. Ackerman, Scott Collis, Jonathan Helmus, Donald R. MacGorman, Kirk North, Pavlos Kollias, and Derek J. Posselt. On polarimetric radar signatures of deep convection for model evaluation: columns of specific differential phase observed during mc3e. Monthly Weather Review, 144(2):737-758, 2016. URL: http://dx.doi.org/10.1175/MWR-D-15-0100.1, arXiv:http://dx.doi.org/10.1175/MWR-D-15-0100.1, doi:10.1175/MWR-D-15-0100.1.
 
+[11] Michael Hankey, Marc Fries, Rob Matson, Jeff Fries, AMSNEXRAD-Automated detection of meteorite strewnfields in doppler weather radar, Planetary and Space Science, Volume 143, 2017, Pages 199-202, ISSN 0032-0633, http://dx.doi.org/10.1016/j.pss.2017.02.008.
+
+[12] Soderholm, J.S., H.A. McGowan, H.X. Richter, K. Walsh, T. Wedd, and T.M. Weckwerth, 0: Diurnal preconditioning of subtropical coastal convective storm environments. Mon. Wea. Rev., 0, https://doi.org/10.1175/MWR-D-16-0330.1
+
+[13] Altube P, J Bech, O Argemí, T Rigo, N Pineda, S Collis, and J Helmus. 2017. "Correction of Dual-PRF Doppler Velocity Outliers in the Presence of Aliasing." Journal of Atmospheric and Oceanic Technology, , 10.1175/JTECH-D-16-0065.1. 
+
+[14] Hoban NP. 2016. Observed Characteristics of Mesoscale Banding in Coastal Northeast U.S. Snow Storms. Ed. Masters Thesis. by Sandra Yuter (advisor), Raleigh, NC: North Carolina State University.
+
+[15] Berkseth SM. 2016. Quantitative Analysis of the Turbulent Structure of Convection [Thesis]. Lubbock, TX: Texas Tech University.
+
+[16] Mroz K, A Battaglia, TJ Lang, DJ Cecil, S Tanelli, and F Tridon. 2017. "Hail-Detection Algorithm for the GPM Core Satellite Sensors." Journal of Applied Meteorology and Climatology, , 10.1175/JAMC-D-16-0368.1. 
+
