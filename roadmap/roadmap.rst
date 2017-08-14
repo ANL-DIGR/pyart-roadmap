@@ -716,3 +716,4 @@ Appendix 3: Papers in press that used Py-ART
 
 [16] Mroz K, A Battaglia, TJ Lang, DJ Cecil, S Tanelli, and F Tridon. 2017. "Hail-Detection Algorithm for the GPM Core Satellite Sensors." Journal of Applied Meteorology and Climatology, , 10.1175/JAMC-D-16-0368.1. 
 
+[17] North, K. W., Oue, M., Kollias, P., Giangrande, S. E., Collis, S. M., and Potvin, C. K.: Vertical air motion retrievals in deep convective clouds using the ARM scanning radar network in Oklahoma during MC3E, Atmos. Meas. Tech., 10, 2785-2806, https://doi.org/10.5194/amt-10-2785-2017, 2017.
