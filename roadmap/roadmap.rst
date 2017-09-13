@@ -58,8 +58,7 @@ is the subject of this document.
 In summary, the roadmap will prioritize development over the next five years in five years
 in the following areas:
 
-1) Improved Quality Control (QC) codes allowing radar users to build better
-application chains. 
+1) Improved Quality Control (QC) algorithms that can be used to create workflows for building more user accessible radar data.
 
 2) Full support for the emerging Cartopy mapping engine ensuring sustainability
 of Py-ARTs geospatial visualization tools.
@@ -116,8 +115,8 @@ combined* effectively giving two groups: those that do and do not use Py-ART.
 The survey had 35 respondents which were solicited by the ARM and Py-ART mailing
 lists, Facebook and Twitter. Of those 11 had never used Py-ART and 24 had. 
 
-.. figure:: ./images/three_panel.png
-   :scale: 50 %
+.. figure:: ./resized_images/three_panel.png
+   :scale: 250 %
    :alt: an image
    
    Figure 2: Pie charts showing the split between Py-ART user and non-user
@@ -485,8 +484,11 @@ examples.
 5 Priority features summary
 ===========================
 The Development team will prioritize the acceptance of Pull requests and perform
-targeted strategic development that adds
-the following features:
+targeted strategic development that adds the features outlined in the following sub-sections. As alluded to in the
+descriptions from previous sections "Highest priority" means that ARM will accept pull requests that need significant
+(more than a few days) work or even perform some ARM funded work ourselves. "Moderate priority" means we will accept pull
+requests that may require some clean up and minor development. "Lower priority" are items where we will only advise the requester 
+on changes required.
 
 5.1 Highest priority
 --------------------
