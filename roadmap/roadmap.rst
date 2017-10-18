@@ -16,6 +16,8 @@ guiding roadmap for development for Py-ART**. It sets priorities for ARM funded
 work and it advises the community which contributions are desired and will
 receive the most assistance from ARM funded software engineers. 
 
+1.1 The Python ARM Radar Toolkit
+--------------------------------
 Py-ART grew out of a collection of radar algorithms generated to support the
 new radar capability in the ARM program (Mather and Voyles, 2012). The two
 original features were a Linear Programming (LP) technique for polarimetric phase processing (Giangrande el at,
@@ -43,15 +45,36 @@ Py-ART has benefited from code from 22 individual contributors. This has been
 enabled by careful implementation of unit tests and continuous integration.
 Every time a pull request is submitted against the Py-ART codebase a set of
 tests run and a report is generated so the developers know if a contribution
-causes any unit tests to fail. 
+causes any unit tests to fail.
+
+
+1.2 Value of Py-ART to ARM
+--------------------------
+
+
+
+Making Py-ART open source and accepting community contributions requires financial support for funding developers to review
+code and implement automated systems like continuous integration and document generation. Py-ART receives vital support for
+accepting pull requests, bug fixing, documentation, outreach and education through the ARM program which is part of the
+Climate and Environmental Sciences Division of the Office of Science in the Department of Energy.
+
+The demonstratable value of Py-ART to ARM is that any code that is contributed to Py-ART can be easily
+be used by ARM in engineering and operations. Since Py-ART carefully conserves radar metadata including data pertinent to ARM
+new code can be inserted into Value Added Product (VAP) implimentations preserving data pertinent to discovery and dissemination.
+
+Py-ART is used in all VAPs applied to the Precipitation Scanning Radars and could easily be applied to all ARM radars. Curently the
+Corrected Moments in Antenna Coordinates (CMAC) VAP uses Py-ART including several hundred lines of code that was contributed by non-DoE
+funded research. Having Py-ART in the community allows ARM to seamlessly incorporate new research from DoE and non-DoE sources into
+VAPs without the laborious task of transcribing from papers or other languages. In addition Py-ART gives PIs of DoE funded programs
+and activities a convenient way of answering question pertaining to the openness of thier science and their contributions to ARM and DoE.
+
+1.3 Need for a Roadmap for Py-ART
+---------------------------------
 
 As the collection of algorithms and radars grew it became clear that, while
 well meaning, third party contributions would subsume other ARM funded efforts
 by the Py-ART development team.
-Py-ART receives vital support for accepting pull requests, bug fixing,
-documentation, outreach and education through the ARM program which is part of
-the Climate and Environmental Sciences Division of the Office of Science in the
-Department of Energy. Due to this, and to ensure the toolkit has maximal impact,
+Due to this, and to ensure the toolkit has maximal impact,
 a roadmap to chart development priorities for the next five years is needed and
 is the subject of this document. 
 
@@ -60,17 +83,13 @@ in the following areas:
 
 1) Improved Quality Control (QC) algorithms that can be used to create workflows for building more user accessible radar data.
 
-2) Full support for the emerging Cartopy mapping engine ensuring sustainability
-of Py-ARTs geospatial visualization tools.
+2) Full support for the emerging Cartopy mapping engine ensuring sustainability of Py-ARTs geospatial visualization tools.
 
-3) Better Documentation, examples and a set of tutorials and courses to allow
-easy delivery of learning using Py-ART.
+3) Better Documentation, examples and a set of tutorials and courses to allow easy delivery of learning using Py-ART.
 
-4) An ingest of WRF produced NetCDF thus allowing efficient comparison between
-model and radar produced fields. 
+4) An ingest of WRF produced NetCDF thus allowing efficient comparison between model and radar produced fields.
 
-5) Work with a third party application to produce cell tracks. Support this
-effort with visualizations. 
+5) Work with a third party application to produce cell tracks. Support this effort with visualizations.
 
 The details of these features is expanded on in sections 4 and 5. The roadmap document is broken down into:
 
@@ -320,6 +339,12 @@ Science Group:
   with the groups that designed these codes.
 
 - Py-ART should do a better job at engaging the cloud radar community.
+
+In addition we recieved feedback from the ARM Radar Engineering group on some
+retrieval code that had been accepted as a pull request which did not accurately
+implement what existed in the literature. To assuage concerns the group had we have
+added responsibilities to the Science Lead pertaining to reviewing pull requests for
+scientific validity in Section 3.
   
 
 2.2.2 Feedback from ASR funded PIs
@@ -380,7 +405,12 @@ introduction of a third role: Associate Developer. The roles will be:
 
 **Science Lead**: Provides high level leadership for the project, organizes outreach
 and education, and coordinates contributor and stakeholder input to form a long
-term vision for the project.
+term vision for the project. The Science Lead will also coordinate reviews of the
+science behind a pull request where some claim has been made. There has been several
+pull requests accepted in the past which did not accurately implement the methodology
+from the literature. While it is difficult to catch all inconsistencies the Science Lead
+will make a judgement on if a pull request requires more review or (in the case of simple fixes)
+can be accepted as is.
 
 **Lead Developer**: Responsible for overall architecture of the project. Final
 arbiter in what pull requests to accept. Develops the required style guidelines
